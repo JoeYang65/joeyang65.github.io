@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Joe&#39;s Hugo Blog</title>
+    <link>https://joeyang65.github.io/tags/</link>
+    <description>Recent content in Tags on Joe&#39;s Hugo Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+        <atom:link href="https://joeyang65.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ASP.NET MVC笔记</title>
+      <link>https://joeyang65.github.io/2020/04/asp.net-mvc%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Sat, 25 Apr 2020 15:22:18 +0800</pubDate>
+      
+      <guid>https://joeyang65.github.io/2020/04/asp.net-mvc%E7%AC%94%E8%AE%B0/</guid>
+      <description>ASP.NET MVC笔记 Http的内置对象： （对应项目例子名称-MvcDemo1，项目启动后可通过Home/xxx访问action，Post请求用到的h</description>
+    </item>
+    
+  </channel>
+</rss>
