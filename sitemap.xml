@@ -3,28 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://joeyang65.github.io/2020/04/asp.net-mvc%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2020-04-25T15:22:18+08:00</lastmod>
+    <loc>https://joeyang65.github.io/2020/04/hugo%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3/</loc>
+    <lastmod>2020-04-25T20:22:18+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://joeyang65.github.io/</loc>
-    <lastmod>2020-04-25T15:22:18+08:00</lastmod>
+    <lastmod>2020-04-25T20:22:18+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://joeyang65.github.io/posts/</loc>
-    <lastmod>2020-04-25T15:22:18+08:00</lastmod>
+    <lastmod>2020-04-25T20:22:18+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://joeyang65.github.io/1/01/hugo%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3/</loc>
+    <loc>https://joeyang65.github.io/2020/04/asp.net-mvc%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2020-04-25T15:22:18+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

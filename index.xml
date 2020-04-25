@@ -5,10 +5,19 @@
     <link>https://joeyang65.github.io/</link>
     <description>Recent content on Joe&#39;s Hugo Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 25 Apr 2020 15:22:18 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2020 20:22:18 +0800</lastBuildDate>
     
         <atom:link href="https://joeyang65.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo中文文档</title>
+      <link>https://joeyang65.github.io/2020/04/hugo%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3/</link>
+      <pubDate>Sat, 25 Apr 2020 20:22:18 +0800</pubDate>
+      
+      <guid>https://joeyang65.github.io/2020/04/hugo%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3/</guid>
+      <description>Hugo中文文档 Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。 快速开始 安装Hugo 1. 二进制安装（推荐：简单、</description>
+    </item>
     
     <item>
       <title>ASP.NET MVC笔记</title>
@@ -17,15 +26,6 @@
       
       <guid>https://joeyang65.github.io/2020/04/asp.net-mvc%E7%AC%94%E8%AE%B0/</guid>
       <description>ASP.NET MVC笔记 Http的内置对象： （对应项目例子名称-MvcDemo1，项目启动后可通过Home/xxx访问action，Post请求用到的h</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://joeyang65.github.io/1/01/hugo%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://joeyang65.github.io/1/01/hugo%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3/</guid>
-      <description>Hugo中文文档 Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。 快速开始 安装Hugo 1. 二进制安装（推荐：简单、</description>
     </item>
     
   </channel>
