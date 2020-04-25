@@ -19,5 +19,14 @@
       <description>ASP.NET MVC笔记 Http的内置对象： （对应项目例子名称-MvcDemo1，项目启动后可通过Home/xxx访问action，Post请求用到的h</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://joeyang65.github.io/1/01/hugo%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joeyang65.github.io/1/01/hugo%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3/</guid>
+      <description>Hugo中文文档 Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。 快速开始 安装Hugo 1. 二进制安装（推荐：简单、</description>
+    </item>
+    
   </channel>
 </rss>
