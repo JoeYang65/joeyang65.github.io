@@ -5,10 +5,19 @@
     <link>https://joeyang65.github.io/</link>
     <description>Recent content on Joe&#39;s Hugo Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 25 Apr 2020 20:22:18 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2020 20:44:11 +0800</lastBuildDate>
     
         <atom:link href="https://joeyang65.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Git的add、commit、push的详细介绍</title>
+      <link>https://joeyang65.github.io/2020/04/git%E7%9A%84addcommitpush%E7%9A%84%E8%AF%A6%E7%BB%86%E4%BB%8B%E7%BB%8D/</link>
+      <pubDate>Sat, 25 Apr 2020 20:44:11 +0800</pubDate>
+      
+      <guid>https://joeyang65.github.io/2020/04/git%E7%9A%84addcommitpush%E7%9A%84%E8%AF%A6%E7%BB%86%E4%BB%8B%E7%BB%8D/</guid>
+      <description>Git的add、commit、push的详细介绍 简单的代码提交流程 git status 查看工作区代码相对于暂存区的差别 git add . 将当前目录下修改的所有代码从工作</description>
+    </item>
     
     <item>
       <title>Hugo中文文档</title>
