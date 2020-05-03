@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        C#基础笔记 - JOEYANG BLOG
+      </title>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  
+  <meta http-equiv="window-target" content="_top" />
+  
+  
+  <meta name="description" content="C#基础笔记 面对对象的概念 什么叫面对对象，面对对象的概念在这里不多解释了，自行了解去吧。。。 创建类的对象的过程，就是将类实例化，这个对象就是" />
+  <meta name="generator" content="Hugo 0.69.2 with theme pure" />
+  <title>C#基础笔记 - JOEYANG BLOG</title>
+  
+  
+  <link rel="stylesheet" href="https://joeyang65.github.io/css/style.min.7dc20efbc53647d41aa9ddea0c48e59300223d084e66ea0cbe7c30bd88903acc.css">
+  
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
+  <meta property="og:title" content="C#基础笔记" />
+<meta property="og:description" content="C#基础笔记 面对对象的概念 什么叫面对对象，面对对象的概念在这里不多解释了，自行了解去吧。。。 创建类的对象的过程，就是将类实例化，这个对象就是" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://joeyang65.github.io/2020/05/c#%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/" />
+<meta property="article:published_time" content="2020-05-03T16:00:19+08:00" />
+<meta property="article:modified_time" content="2020-05-03T16:00:19+08:00" />
+<meta itemprop="name" content="C#基础笔记">
+<meta itemprop="description" content="C#基础笔记 面对对象的概念 什么叫面对对象，面对对象的概念在这里不多解释了，自行了解去吧。。。 创建类的对象的过程，就是将类实例化，这个对象就是">
+<meta itemprop="datePublished" content="2020-05-03T16:00:19&#43;08:00" />
+<meta itemprop="dateModified" content="2020-05-03T16:00:19&#43;08:00" />
+<meta itemprop="wordCount" content="2291">
+
+
+
+<meta itemprop="keywords" content="C#," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="C#基础笔记"/>
+<meta name="twitter:description" content="C#基础笔记 面对对象的概念 什么叫面对对象，面对对象的概念在这里不多解释了，自行了解去吧。。。 创建类的对象的过程，就是将类实例化，这个对象就是"/>
+
+  <!--[if lte IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+    <![endif]-->
+
+  <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+  </head>
+
+  
+  
+
+  <body class="main-center theme-black" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="https://github.com/JoeYang65/" target="_blank">
+            <img class="img-circle img-rotate" src="https://joeyang65.github.io/avatar.png" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm">JoeYang</h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">Developer</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i>ShenZhen, China</small>
+        </div><div class="search" id="search-form-wrap">
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="Search" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i
+                        class="icon icon-search"></i></button>
+            </span>
+        </div>
+        <div class="ins-search">
+            <div class="ins-search-mask"></div>
+            <div class="ins-search-container">
+                <div class="ins-input-wrapper">
+                    <input type="text" class="ins-search-input" placeholder="Type something..."
+                        x-webkit-speech />
+                    <button type="button" class="close ins-close ins-selectable" data-dismiss="modal"
+                        aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="ins-section-wrapper">
+                    <div class="ins-section-container"></div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/posts/">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Archives</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories/">
+                    <i class="icon icon-folder"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-tags">
+                <a href="/tags/">
+                    <i class="icon icon-tags"></i>
+                  <span class="menu-title">Tags</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="/about/">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">About</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    
+      <div class="widget">
+    <h3 class="widget-title">Board</h3>
+    <div class="widget-body">
+        <div id="board">
+            <div class="content"><p>enjoy~</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+      <div class="widget">
+    <h3 class="widget-title"> Categories</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="https://joeyang65.github.io/categories/development/" class="category-list-link">development</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="https://joeyang65.github.io/categories/hugo/" class="category-list-link">hugo</a><span class="category-list-count">1</span></li>
+        </ul>
+    </div>
+</div>
+      <div class="widget">
+    <h3 class="widget-title"> Tags</h3>
+    <div class="widget-body">
+        <ul class="tag-list">
+            
+            
+            <li class="tag-list-item"><a href="https://joeyang65.github.io/tags/asp.net/" class="tag-list-link">asp.net</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://joeyang65.github.io/tags/c#/" class="tag-list-link">c#</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://joeyang65.github.io/tags/git/" class="tag-list-link">git</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://joeyang65.github.io/tags/markdown/" class="tag-list-link">markdown</a><span
+                    class="tag-list-count">1</span></li>
+            
+        </ul>
+
+    </div>
+</div>
+      
+<div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://joeyang65.github.io/2020/05/c#%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/" class="title">C#基础笔记</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-05-03 16:00:19 &#43;0800 CST" itemprop="datePublished">2020-05-03</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://joeyang65.github.io/2020/05/markdown%E9%87%8C%E9%9D%A2%E6%8F%92%E5%85%A5base64%E5%9B%BE%E7%89%87/" class="title">Markdown插入base64</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-05-03 15:15:48 &#43;0800 CST" itemprop="datePublished">2020-05-03</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://joeyang65.github.io/2020/04/git%E7%9A%84addcommitpush%E7%9A%84%E8%AF%A6%E7%BB%86%E4%BB%8B%E7%BB%8D/" class="title">Git的add、commit、push的详细介绍</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-04-25 20:44:11 &#43;0800 CST" itemprop="datePublished">2020-04-25</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://joeyang65.github.io/2020/04/hugo%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3/" class="title">Hugo中文文档</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-04-25 20:22:18 &#43;0800 CST" itemprop="datePublished">2020-04-25</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://joeyang65.github.io/2020/04/asp.net-mvc%E7%AC%94%E8%AE%B0/" class="title">ASP.NET MVC笔记</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-04-25 15:22:18 &#43;0800 CST" itemprop="datePublished">2020-04-25</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <h4 class="toc-title">Catalogue</h4>
+    <nav id="toc" class="js-toc toc">
+
+    </nav>
+  </div>
+</aside>
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2020/05/c#%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/"
+    >C#基础笔记</a
+  >
+</h1>
+
+      <div class="article-meta">
+        
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://joeyang65.github.io/2020/05/c#%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/" class="article-date">
+  <time datetime="2020-05-03 16:00:19 &#43;0800 CST" itemprop="datePublished">2020-05-03</time>
+</a>
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/development/"> Development </a>
+</span>  
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>&nbsp;
+    <a class="article-tag-link" href="/tags/c/"> C# </a>
+  </span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/2020/05/c#%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/#comments"
+            class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 2291words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 5minutes </span>
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <h1 id="c基础笔记">C#基础笔记</h1>
+<h2 id="面对对象的概念">面对对象的概念</h2>
+<p>什么叫面对对象，面对对象的概念在这里不多解释了，自行了解去吧。。。</p>
+<p>创建类的对象的过程，就是将类实例化，这个对象就是这个类的实例。</p>
+<p>类是不占内存的，而对象是占内存的。静态类除外</p>
+<p>null不占内存，不在内存开辟空间，表示无效的、空的。</p>
+<p>重载：一样的方法名，不一样的参数</p>
+<h3 id="this关键字">this关键字：</h3>
+<ul>
+<li>
+<p>代表当前类的<strong>对象</strong></p>
+</li>
+<li>
+<p>在类当中显式的调用本类的构造函数，语法 <code>:this()</code></p>
+<p>调用的流程是：</p>
+<p>调用类的构造函数B ===&gt; 构造函数B通过<code>:this()</code>调用构造函数A ===&gt; 构造函数A执行完成后返回构造函数B ===&gt; 执行构造函数B内部代码</p>
+</li>
+</ul>
+<pre><code class="language-c#">public class Student{
+    //构造函数创建对象
+    //第一个构造函数
+    public Student(string name, int age, char gender, int chinese, int math, int english)
+        {
+            this.Name = name;//this.Name表示当前类的对象的Name属性
+            this.Age = age;
+            this.Gender = gender;
+            this.Chinese = chinese;
+            this.Math = math;
+            this.English = english;
+        }
+    
+    //第二个构造函数
+    /*
+    本构造函数通过this关键字可以本类其他的构造函数，这里调用了第一个构造函数，因为它初始化赋值最全。
+    调用本构造函数的时候将所需参数传入，然后本构造函数调用第一个构造函数，
+    同时将本构造函数接收的参数传给第一个构造函数，而本构造函数没有但第一个构造函数需要的参数就传一个具体的值作为默认值。
+    当本构造函数调用完第一个构造函数之后，又会回到本构造函数，执行本构造函数内部的代码，这里本构造函数内部代码是空的
+    */
+        public Student(string name, int chinese, int math, int english):this(name,0,'c',chinese,math,english)
+        {
+            //this.Name = name;
+            //this.Chinese = chinese;
+            //this.Math = math;
+            //this.English = english;
+        }
+}
+</code></pre>
+<h3 id="new关键字">new关键字：</h3>
+<p>new帮助我们做了3件事儿：<code>Person person = new Person();</code>
+1、在内存中开辟一块空间
+2、在开辟的空间中创建对象
+3、调用对象的构造函数进行初始化对象</p>
+<h3 id="namespace">namespace</h3>
+<p>namespace（命名空间），用于解决类的重名问题，可以看作 ”类的文件夹“</p>
+<ul>
+<li>如果代码和被使用的类在同一个命名空间，就不需要用using引用命名空间</li>
+<li>代码和类在不同命名空间下，类的调用有两种方式：
+<ul>
+<li>写全称：命名空间.类名</li>
+<li>先用using引用命名空间，再调用类</li>
+</ul>
+</li>
+<li>在一个项目中引用另一个项目的类
+<ol>
+<li>添加引用，在项目目录下面找到 ”引用“ 文件夹，右键点击添加引用</li>
+<li>类中using引用命名空间</li>
+</ol>
+</li>
+</ul>
+<h3 id="值类型和引用类型">值类型和引用类型</h3>
+<p>区别：</p>
+<p>值类型和引用类型在内存上存储的地方不一样，值类型存储在内存的栈中，引用类型存储在内存的堆中</p>
+<p>在传递值类型和传递引用类型的时候，传递方式不一样。值类型为值传递，引用类型为引用传递。</p>
+<p>值类型：</p>
+<p>int、double、bool、char、decimal、struct、enum</p>
+<p>引用类型：</p>
+<p>string、自定义类</p>
+<p><img src="data:image/png;base64,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TWekAg5DunQkHz9eZeTjy88P+VDzp/8oQPWtGccLAZLzzvdVX6IVlYfv3W1/XkM2xB0ASnD0GDvkyxev1UuPww/ODqeHp4pSu/JxPVja6KBoboDcFveKdq/sDGmgfNrooGhugJyAziGSBsqnjQ5H1dbpEQBNf38odDRlZwh/5dNGB0VzA+S2uFfczbu4AADAnhLQAQCgIAI6AAAUREAHAICCCOgAAFAQAR0AAAriJlnsDPdd3i32LXvPbRYBclvcK9q9sjOkgfJpo4OiuQFyW9wrGuICAAAFEdABAKAgAjoAABREQAcAgIII6AAAUBABHQAACiKgAwBAQQR0AAAoiIAOAAAFEdABAKAgAjoAABREQAcAgIII6AAAUBABHQAACiKgAwBAQQR0AAAoiIAOAAAFEdABAKAgAjoAABREQAcAgIII6AAAUBABHQAACiKgAwBAQQR0AAAoiIAOAAAFEdABAKAgAjoAABREQAcAgIII6AAAUBABHQAACiKgAwBAQQR0AAAoiIAOAAAFEdABAKAgAjoAABREQAcAgIII6AAAUBABHQAACiKgAwBAQQR0AAAoiIAOAAAFEdABAKAgAjoAABREQAcAgIII6AAAUBABHQAACiKgAwBAQQR0AAAoiIAOAAAFEdABAKAgAjoAABREQAcAgIII6AAAUBABHQAACiKgAwBAQQR0AAAoiIAOAAAFEdABAKAgAjoAABREQAcAgIII6AAAUBABHQAACiKgAwBAQQR0AAAoiIAOAAAF2TSgT65PjnIn15NUsnv26bVsXcFvTtiQo4u7uwtNBgDss+f0oPeuxo+18VVn0N3pkLRPr2XrinxzJtfn1b/jm9PTm7BV51oMANhTLxvicnz5/ao3Gvx3l57vsn16LVtXzptz999gVP13HB4fX37tazEAYF+9dAz68T8f06MoHxiRdbjWoxHu6sI0PUyrXeQJqzm0IiuKBRd3WXljuWReazLdihWry5X2Wto9tWy+0vzFL72ExtMn11/Im3P3c9i7So8rp/9e9YY/U3FcItsYAICd9tKAPvlz3+l96MbHVRLr/viSRkUsDYoYDc4evoaS35fHYdaz++kAis9/prOFGgYfb+vJoY77s2biGp6dd77Hstt+9WQ5Vp7exNKgmqPTu/perW3V6hYU8lqayXWqGTxXLbtis08/9zujH7+mW/ZzWL2E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EdABAKAgAjoAABREQAcAgIII6AAAUBABHQAACiKgAwBAQQR0AAAoiIAOAAAFEdABAKAgAjoAABREQAcAgIII6AAAUBABHQAACiKgAwBAQQR0AAAoiIAOAAAFEdABAKAgAjoAABREQAcAgIII6AAAUBABHQAACiKgAwBAQQR0AAAoiIAOAAAFEdABAKAgAjoAABREQAcAgIII6AAAUBABHQAACiKgAwBAQQR0AAAoiIAOAAAFEdABAKAgAjoAABREQAcAgIII6AAAUBABHQAACiKgAwBAQQR0AAAoiIAOAAAFEdABAKAgAjoAABREQAcAgIII6AAAUBABHQAACiKgAwBAQQR0AAAoiIAOAAAFEdABAKAgAjoAABREQAcAgIII6AAAUBABHQAACiKgAwBAQQR0AAAoiIAOAAAFEdABAKAgAjoAABREQAcAgIII6AAAUBABHQAACiKgAwBAQQR0AAAoiIAOAAAFEdABAKAgAjoAABREQAcAgIII6AAAUBABHQAACiKgAwBAQQR0AAAoiIAOAAAFEdABAKAgAjoAABREQAcAgIII6AAAUBABHQAACiKgAwBAQQR0AAAoiIAOAAAFEdABAKAgAjoAABREQAcAgIII6AAAUBABHQAACiKgAwBAQQR0AAAoiIAOAAAFEdABAKAgAjoAABREQAcAgIII6AAAUBABHQAACiKgAwBAQY4eHx/TQyjb0ZGPa+m00UGpmjs9AiDa1kHQ0ZSdIQ3sBLsUAPhLAjoAABTEGHQAACiIgA4AAAUR0AEAoCACOgAAFERABwCAggjoAABQEAEdAAAKIqADAEBBBHQAACiIgA4AAAUR0AEAoCACOgAAFERABwCAggjoAABQEAEdAAAKIqADAEBBBHQAACiIgA4AAAUR0AEAoBidzv8B0PUkmvkL9C0AAAAASUVORK5CYII=" alt="image"></p>
+<h2 id="类的基本语法">类的基本语法</h2>
+<p>类里面可以写：字段、方法、属性、构造函数</p>
+<h3 id="字段-field">字段 Field：</h3>
+<p>用来存数据，命名以“ _ ”开头，如：_name</p>
+<h3 id="方法-method">方法 Method：</h3>
+<p>表示类的对象将具有的行为，</p>
+<h3 id="属性-property">属性 Property：</h3>
+<p>属性的作用就是保护字段，对字段的赋值和取值进行限制，在将值给到字段之前属性可以通过get和set方法先进行一定的处理。属性的本质就是两个方法，分别是get()和set()</p>
+<pre><code class="language-c#">public class Person{
+    
+    //字段
+	public string _name;
+    
+	//属性，不保存值，就是一个中间商
+	public string Name{
+        //取值时调用，返回对应字段的值
+		get{
+            //进行一些判断，若满足判断就进行一系列操作，然后才返回字段的值
+            if(...){
+                ......//可以写一系列自定义操作
+                return _name = &quot;xx&quot;;//此处修改了要返回的_name的值
+            }
+            return _name; 
+        }
+        //赋值时调用，通过属性将传入的值value赋值给对应字段
+		set{ _name = value; }
+	}
+    
+	//方法
+	public void showPerson(){
+        //最好当然是通过属性来读取或赋值，属性来和外界打交道，保护里面的字段，将字段的public去掉即可
+		Console.WriteLine(&quot;my name is {0}&quot;, this.Name);
+	}
+    
+}
+</code></pre>
+<h3 id="访问修饰符">访问修饰符：</h3>
+<p>public：公开的公共的，在哪都能访问</p>
+<p>private：私有的，只有当前类的内部可以访问，出了这个类就无法访问</p>
+<h3 id="静态和非静态的区别">静态和非静态的区别</h3>
+<p>在语法上的区别：</p>
+<p>1、在非静态类中，既可以有实例成员（非静态成员），也可以有静态成员，可以实例化；静态类中只允许有静态成员，不能实例化</p>
+<p>2、<strong>实例成员</strong>需要通过先创建类的对象再通过<strong>对象来调用</strong>；<strong>静态成员</strong>直接通过<strong>类名来调用</strong></p>
+<p>3、静态函数中，只能访问静态成员，不能访问实例成员；实例方法中却都可以访问</p>
+<p>在使用上区别：</p>
+<p>1、如果将类当作一个”工具类“去使用，使用频率较高，则可以考虑将类写成静态类，使用起来更方便</p>
+<p>2、静态类在整个项目中资源共享，静态类占内存，只有程序全部结束后，静态类才会释放资源</p>
+<h3 id="构造函数">构造函数</h3>
+<p>给类创建对象，并给对象的属性赋值，给予对象一些初始的值，将给对象赋值的过程称之为<strong>对象的初始化</strong>。但一个个属性的去赋值会很麻烦，有很多冗余的代码，因为除了赋的值不一样之外，其余代码都一样。</p>
+<p><strong>构造函数</strong>可以帮助我们初始化对象。每个类都有构造方法用来创建对象，并且可以在构造函数中对对象进行初始化，创建对象的时候会执行构造函数。</p>
+<ul>
+<li>构造函数是用来创建对象的特殊方法，<em>方法名和类名</em>一样，没有返回值，连void也不能写。</li>
+<li>如果不指定构造函数，则类有一个默认的无参构造函数。当自己写了一个新的构造函数后，不管有无参数，默认的无参构造函数都没有了</li>
+<li>构造函数可以有参数，new对象的时候传递函数参数即可</li>
+<li>构造函数可以重载，也就是有多个参数不同的构造函数。</li>
+</ul>
+<h3 id="析构函数">析构函数</h3>
+<p>当程序结束的时候，析构函数才会执行，帮助我们释放资源。虽然C#里面有GC（Garbage Collection）垃圾回收器，会自动帮我们释放资源，但是如果我们希望马上释放资源的话可以使用析构函数</p>
+<pre><code class="language-c#">//Student是类名，下面的析构函数的写法是固定的
+~Student(){
+	Console.WriteLine(&quot;我是析构函数&quot;);
+}
+</code></pre>
+<p><strong>学习到H:\ProgrammingResource\ASP.NET资料\C#和DotNet视频教程\01.Net基础教程\01.Net基础\03-c#高级\01&ndash;面向对象初级\video\3、属性.avi</strong></p>
+
+    </div>
+    <div class="article-footer">
+<blockquote class="mt-2x">
+  <ul class="post-copyright list-unstyled">
+    <li class="post-copyright-link hidden-xs">
+      <strong>Permalink: </strong>
+      <a href="https://joeyang65.github.io/2020/05/c#%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/" title="C#基础笔记" target="_blank" rel="external">https://joeyang65.github.io/2020/05/c#%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>License：</strong><a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN</a>
+    </li>
+  </ul>
+</blockquote>
+
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://github.com/JoeYang65/" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="https://joeyang65.github.io/avatar.png" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://github.com/JoeYang65/" target="_blank"><span class="text-dark">JoeYang</span><small class="ml-1x">Developer</small></a></h3>
+        <div>Good Good Study, Day Day Up~</div>
+      </div>
+    </figure>
+  </div>
+</div>
+    </div>
+  </article>
+<section id="comments">
+</section>
+
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="https://joeyang65.github.io/2020/05/markdown%E9%87%8C%E9%9D%A2%E6%8F%92%E5%85%A5base64%E5%9B%BE%E7%89%87/" title="Markdown插入base64"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+            
+            <li class="toggle-toc">
+                <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false"
+                    title="Catalogue" role="button">
+                    <span>[&nbsp;</span><span>Catalogue</span>
+                    <i class="text-collapsed icon icon-anchor"></i>
+                    <i class="text-in icon icon-close"></i>
+                    <span>]</span>
+                </a>
+            </li>
+        </ul>
+        <div class="bar-right">
+            <div class="share-component" data-sites="weibo,qq,wechat,facebook,twitter"
+                data-mobile-sites="weibo,qq,qzone"></div>
+        </div>
+    </div>
+</nav>
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://github.com/JoeYang65/" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://joeyang65.github.io/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy;2020  -
+    2020
+    <div class="publishby">
+        Owned by
+        <a href="https://github.com/JoeYang65/" target="_blank"> JoeYang. </a><br>
+        Powered by
+        <a href="https://gohugo.io/" target="_blank"> HUGO</a>.
+        Theme by <a href="https://github.com/xiaoheiAh" target="_blank"> xiaoheiAh </a>base on<a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> pure</a>.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/javascript.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/bash.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/java.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/c#.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/sql.min.js" defer></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+<script src="https://joeyang65.github.io/js/application.min.bdeb64b910570b6c41badc6a05b7afb0c8ad9efd8525de3c7257d59e786326a3.js"></script>
+<script src="https://joeyang65.github.io/js/plugin.min.51ff8c7317566f82259170fa36e09c4493adc9b9378b427a01ad3f017ebac7dd.js"></script>
+
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: 'Posts',
+                PAGES: 'Pages',
+                CATEGORIES: 'Categories',
+                TAGS: 'Tags',
+                UNTITLED: '(Untitled)',
+            },
+            ROOT_URL: 'https:\/\/joeyang65.github.io\/',
+            CONTENT_URL: 'https:\/\/joeyang65.github.io\/\/searchindex.json ',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script type="text/javascript" src="https://joeyang65.github.io/js/insight.min.a343cd9a5a7698336b28ef3a7c16a3a1b1d2d5fb17dc8ed04022bbe08cc5459073a15bdafa3a8a58cdd56080784bdd69fa70b1ae8597565c799c57ed00f0e120.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+<script>
+    tocbot.init({
+        
+        tocSelector: '.js-toc',
+        
+        contentSelector: '.js-toc-content',
+        
+        headingSelector: 'h1, h2, h3',
+        
+        hasInnerContainers: true,
+    });
+</script>
+
+
+  </body>
+</html>

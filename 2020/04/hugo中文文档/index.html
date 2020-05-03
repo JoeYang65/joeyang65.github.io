@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
-        Hugo中文文档 - Joe&#39;s Hugo Blog
+        Hugo中文文档 - JOEYANG BLOG
       </title>
     <head>
   <meta charset="utf-8">
@@ -25,7 +25,7 @@
   
   <meta name="description" content="Hugo中文文档 Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。 快速开始 安装Hugo 1. 二进制安装（推荐：简单、" />
   <meta name="generator" content="Hugo 0.69.2 with theme pure" />
-  <title>Hugo中文文档 - Joe&#39;s Hugo Blog</title>
+  <title>Hugo中文文档 - JOEYANG BLOG</title>
   
   
   <link rel="stylesheet" href="https://joeyang65.github.io/css/style.min.7dc20efbc53647d41aa9ddea0c48e59300223d084e66ea0cbe7c30bd88903acc.css">
@@ -46,7 +46,7 @@
 
 
 
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hugo中文文档"/>
 <meta name="twitter:description" content="Hugo中文文档 Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。 快速开始 安装Hugo 1. 二进制安装（推荐：简单、"/>
 
@@ -161,6 +161,8 @@
     <h3 class="widget-title"> Categories</h3>
     <div class="widget-body">
         <ul class="category-list">
+            <li class="category-list-item"><a href="https://joeyang65.github.io/categories/development/" class="category-list-link">development</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="https://joeyang65.github.io/categories/hugo/" class="category-list-link">hugo</a><span class="category-list-count">1</span></li>
         </ul>
     </div>
 </div>
@@ -168,6 +170,22 @@
     <h3 class="widget-title"> Tags</h3>
     <div class="widget-body">
         <ul class="tag-list">
+            
+            
+            <li class="tag-list-item"><a href="https://joeyang65.github.io/tags/asp.net/" class="tag-list-link">asp.net</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://joeyang65.github.io/tags/c#/" class="tag-list-link">c#</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://joeyang65.github.io/tags/git/" class="tag-list-link">git</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://joeyang65.github.io/tags/markdown/" class="tag-list-link">markdown</a><span
+                    class="tag-list-count">1</span></li>
             
         </ul>
 
@@ -178,6 +196,26 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://joeyang65.github.io/2020/05/c#%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/" class="title">C#基础笔记</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-05-03 16:00:19 &#43;0800 CST" itemprop="datePublished">2020-05-03</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://joeyang65.github.io/2020/05/markdown%E9%87%8C%E9%9D%A2%E6%8F%92%E5%85%A5base64%E5%9B%BE%E7%89%87/" class="title">Markdown插入base64</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-05-03 15:15:48 &#43;0800 CST" itemprop="datePublished">2020-05-03</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -245,7 +283,14 @@
   <time datetime="2020-04-25 20:22:18 &#43;0800 CST" itemprop="datePublished">2020-04-25</time>
 </a>
 </span>
-
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/hugo/"> Hugo </a>
+</span>  
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>&nbsp;
+    <a class="article-tag-link" href="/tags//">  </a>
+  </span>
 
         <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/2020/04/hugo%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3/#comments"
             class="article-comment-link">Comments</a></span>
@@ -297,7 +342,7 @@ $ go get -v github.com/spf13/hugo
 <pre><code class="language-bash">$ hugo new about.md
 </code></pre>
 <p><code>about.md</code> 自动生成到了 <code>content/about.md</code> ，打开 <code>about.md</code> 看下：</p>
-<pre><code>+++
+<pre><code class="language-markdown">+++
 date = &quot;2015-10-25T08:36:54-07:00&quot;
 draft = true
 title = &quot;about&quot;
@@ -311,7 +356,7 @@ title = &quot;about&quot;
 <pre><code class="language-bash">$ hugo new posts/first.md
 </code></pre>
 <p>打开编辑 <code>posts/first.md</code> ：</p>
-<pre><code>---
+<pre><code class="language-markdown">---
 date: &quot;2015-10-25T08:36:54-07:00&quot;
 title: &quot;first&quot;
  
@@ -358,30 +403,30 @@ $ git push -u origin master
 <pre><code>hugo --theme=blackburn --buildDrafts --baseUrl=“https://coderzh.github.io/”
 </code></pre>
 <p>发布网页，注意是发布public目录里面的html文件到GitHub</p>
-<pre><code class="language-shell">cd public
+<pre><code class="language-bash">cd public
 git add .
 git commit -m “new blog added”
 git push origin master
 </code></pre>
 <h3 id="git命令问题">Git命令问题</h3>
 <p>错误1：</p>
-<pre><code class="language-git">git remote add origin**************
+<pre><code class="language-bash">git remote add origin**************
 fatal: remote origin already exists.（报错远程起源已经存在。）
 </code></pre>
 <p>解决1：</p>
-<pre><code>1、先输入 git remote rm origin
+<pre><code class="language-bash">1、先输入 git remote rm origin
 2、再输入 git remote add origin**************
 </code></pre>
 <p>错误2：</p>
-<pre><code>git remote add origin******
+<pre><code class="language-bash">git remote add origin******
 The authenticity of host 'github.com ' can't be established（无法建立主机“github.com”的真实性）
 </code></pre>
 <p>解决2：这是由于你的git地址采用了ssh方式，切换为https方式即可，也可能是你的仓库地址不对，可以用命令先查看一下：</p>
-<pre><code> git remote -v
+<pre><code class="language-bash"> git remote -v
 </code></pre>
 <p>如果跟你的github地址不一样，那就去你的github上复制一下仓库地址
 然后在终端中输入：</p>
-<pre><code>git remote set-url origin https://github.com/yourname/learngit.git (这个是你的复制的仓库地址)
+<pre><code class="language-bash">git remote set-url origin https://github.com/yourname/learngit.git (这个是你的复制的仓库地址)
 </code></pre>
 <p>最后再push下就可以了！</p>
 <pre><code>git push origin master 
@@ -489,7 +534,11 @@ The authenticity of host 'github.com ' can't be established（无法建立主机
 </script>
 <script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
 <script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js" defer></script>
-<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/javascript.min.js" defer></script><script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/javascript.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/bash.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/java.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/c#.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/sql.min.js" defer></script><script>
     hljs.configure({
         tabReplace: '    ', 
         classPrefix: ''     

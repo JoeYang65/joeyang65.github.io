@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Joe&#39;s Hugo Blog</title>
+    <title>Posts on JOEYANG BLOG</title>
     <link>https://joeyang65.github.io/posts/</link>
-    <description>Recent content in Posts on Joe&#39;s Hugo Blog</description>
+    <description>Recent content in Posts on JOEYANG BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 25 Apr 2020 20:44:11 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2020 16:00:19 +0800</lastBuildDate>
     
         <atom:link href="https://joeyang65.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>C#基础笔记</title>
+      <link>https://joeyang65.github.io/2020/05/c#%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Sun, 03 May 2020 16:00:19 +0800</pubDate>
+      
+      <guid>https://joeyang65.github.io/2020/05/c#%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/</guid>
+      <description>C#基础笔记 面对对象的概念 什么叫面对对象，面对对象的概念在这里不多解释了，自行了解去吧。。。 创建类的对象的过程，就是将类实例化，这个对象就是</description>
+    </item>
+    
+    <item>
+      <title>Markdown插入base64</title>
+      <link>https://joeyang65.github.io/2020/05/markdown%E9%87%8C%E9%9D%A2%E6%8F%92%E5%85%A5base64%E5%9B%BE%E7%89%87/</link>
+      <pubDate>Sun, 03 May 2020 15:15:48 +0800</pubDate>
+      
+      <guid>https://joeyang65.github.io/2020/05/markdown%E9%87%8C%E9%9D%A2%E6%8F%92%E5%85%A5base64%E5%9B%BE%E7%89%87/</guid>
+      <description>往Markdown里面插入base64图片 基础插入图片语法： 地址可以是本地地址，支持相对路径或者绝对路径，也可以是网络地址 ![描述信息，任意</description>
+    </item>
     
     <item>
       <title>Git的add、commit、push的详细介绍</title>
@@ -34,7 +52,18 @@
       <pubDate>Sat, 25 Apr 2020 15:22:18 +0800</pubDate>
       
       <guid>https://joeyang65.github.io/2020/04/asp.net-mvc%E7%AC%94%E8%AE%B0/</guid>
-      <description>ASP.NET MVC笔记 Http的内置对象： （对应项目例子名称-MvcDemo1，项目启动后可通过Home/xxx访问action，Post请求用到的h</description>
+      <description>ASP.NET MVC笔记 关于asp.net基础的笔记，对应3个demo，demo里面也有注释，分别是MvcDemo1，MvcDemo2，MvcDemo3</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://joeyang65.github.io/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://joeyang65.github.io/about/</guid>
+      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Hugo makes use of a variety of open source projects including:
+ https://github.</description>
     </item>
     
   </channel>
