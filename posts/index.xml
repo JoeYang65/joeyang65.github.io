@@ -5,18 +5,18 @@
     <link>https://joeyang65.github.io/posts/</link>
     <description>Recent content in Posts on JOEYANG BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 03 May 2020 16:00:19 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2020 16:35:23 +0800</lastBuildDate>
     
         <atom:link href="https://joeyang65.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>C#基础笔记</title>
-      <link>https://joeyang65.github.io/2020/05/c#%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/</link>
-      <pubDate>Sun, 03 May 2020 16:00:19 +0800</pubDate>
+      <link>https://joeyang65.github.io/2020/05/c-sharp%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Sun, 03 May 2020 16:35:23 +0800</pubDate>
       
-      <guid>https://joeyang65.github.io/2020/05/c#%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/</guid>
-      <description>C#基础笔记 面对对象的概念 什么叫面对对象，面对对象的概念在这里不多解释了，自行了解去吧。。。 创建类的对象的过程，就是将类实例化，这个对象就是</description>
+      <guid>https://joeyang65.github.io/2020/05/c-sharp%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/</guid>
+      <description>C# 面对对象的概念 什么叫面对对象，面对对象的概念在这里不多解释了，自行了解去吧。。。 创建类的对象的过程，就是将类实例化，这个对象就是这个类的实</description>
     </item>
     
     <item>
