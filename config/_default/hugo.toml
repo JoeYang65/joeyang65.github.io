@@ -2,14 +2,15 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://blowfish.page/docs/getting-started/
 
-theme = "blowfish" # UNCOMMENT THIS LINE
-# baseURL = "https://your_domain.com/"
-defaultContentLanguage = "zh"
+theme = "blowfish" 
+baseURL = "https://localhost:1313"
+defaultContentLanguage = "zh-cn"
+defaultContentLanguageInSubdir = true
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
 enableRobotsTXT = true
-summaryLength = 0
+summaryLength = 30
 
 buildDrafts = false
 buildFuture = false
@@ -67,3 +68,10 @@ enableEmoji = true
       name = 'fragmentrefs'
       type = 'fragments'
       weight = 10
+
+
+[frontmatter]
+  date = ['date',':default']
+  expiryDate = ['expirydate', 'unpublishdate']
+  lastmod = ['lastmod', ':fileModTime', ':git']
+  publishDate = ['publishdate', 'pubdate', 'date']

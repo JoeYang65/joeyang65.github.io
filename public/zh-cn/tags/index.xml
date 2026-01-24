@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on language配置中的title</title>
+    <link>http://localhost:1313/zh-cn/tags/</link>
+    <description>Recent content in Tags on language配置中的title</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2026 Joe</copyright>
+    <lastBuildDate>Fri, 23 Jan 2026 14:15:57 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh-cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Docs</title>
+      <link>http://localhost:1313/zh-cn/tags/docs/</link>
+      <pubDate>Thu, 15 Jan 2026 13:18:50 -0700</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/tags/docs/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>New</title>
+      <link>http://localhost:1313/zh-cn/tags/new/</link>
+      <pubDate>Thu, 15 Jan 2026 13:18:50 -0700</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/tags/new/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
