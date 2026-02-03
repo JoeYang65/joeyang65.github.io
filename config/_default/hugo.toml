@@ -5,7 +5,8 @@
 theme = "blowfish" 
 baseURL = "https://localhost:1313"
 defaultContentLanguage = "zh-cn"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
+
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
@@ -19,12 +20,16 @@ enableEmoji = true
 
 # googleAnalytics = "G-XXXXXXXXX"
 
+# 配置网站的时区
+timeZone = 'Asia/Shanghai'
+
 [pagination]
   pagerSize = 100
 
 [imaging]
   anchor = 'Center'
 
+# 分类法
 [taxonomies]
   tag = "tags"
   category = "categories"
@@ -75,3 +80,4 @@ enableEmoji = true
   expiryDate = ['expirydate', 'unpublishdate']
   lastmod = ['lastmod', ':fileModTime', ':git']
   publishDate = ['publishdate', 'pubdate', 'date']
+
