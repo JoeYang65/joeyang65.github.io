@@ -10,29 +10,29 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 [[main]]
-  name = "主页"
+  name = "首页"
   pageRef = "/"
   weight = 1
 
 [[main]]
-  name = "文章"
-  pageRef = "docs"
-  weight = 10
+  name = "产品中心"
+  pageRef = "products"
+  weight = 2
 
-# [[main]]
-#   name = "简码"
-#   pageRef = "docs/shortcodes"
-#   weight = 15
+[[main]]
+  name = "解决方案"
+  pageRef = "solution"
+  weight = 3
 
-# [[main]]
-#   name = "示例"
-#   weight = 20
+[[main]]
+  name = "关于我们"
+  pageRef = "about"
+  weight = 4
 
-# [[main]]
-#   name = "功能示例"
-#   parent = "示例"
-#   pageRef = "samples"
-#   weight = 16
+[[main]]
+  name = "联系我们"
+  pageRef = "contact"
+  weight = 5
 
 # [[main]]
 #   name = "模板示例"
@@ -73,23 +73,23 @@
 #  weight = 300
 #  url = "https://masto.ai/@blowfish"
 
-[[main]]
-  identifier = "github"
-  pre = "github"
-  url = "https://github.com/JoeYang65/joeyang65.github.io"
-  weight = 400
+# [[main]]
+#   identifier = "github"
+#   pre = "github"
+#   url = "https://github.com/JoeYang65/joeyang65.github.io"
+#   weight = 400
 
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
 
-#  [[footer]]
-#    name = "标签"
-#    pageRef = "tags"
-#    weight = 10
+ [[footer]]
+   name = "标签"
+   pageRef = "tags"
+   weight = 10
 
-#  [[footer]]
-#    name = "作者"
-#    pageRef = "authors"
-#    weight = 20
+ [[footer]]
+   name = "作者"
+   pageRef = "authors"
+   weight = 20

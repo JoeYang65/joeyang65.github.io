@@ -1,24 +1,24 @@
-languageCode = "zh-cn"
-languageName = "简体中文"
+locale = "zh-cn"
+label = "简体中文"
 weight = 1
-title = "J&M.SITE"
+title = "沐玥智联科技有限公司</br> MOJOY LINK TECH"
+
 
 [params]
   displayName = "简体中文"
   isoCode = "zh-cn"
   rtl = false #RTL语言，从右向左重排内容
-  #dateFormat = "2006-01-02" #使用Hugo框架的时间格式组件创建日期字符串格式，例如：2006 代表 year组件，表示日期字符串的年部分
-  #dateFormat = "2 January 2006"
-  dateFormat = "2006-01-02 15:04:05 Monday" #用Hugo组件，配置日期格式
-  logo = "img/jm_logo.svg"
-  # description = "这是一个普通的网站，自己探索吧..."
+  dateFormat = "2006-01-02" #使用Hugo框架的时间格式组件创建日期字符串格式，例如：2006 代表 year组件，表示日期字符串的年部分
+  logo = "img/MojoyLinkTech_logo.svg"
+  description = "沐玥智联科技有限公司，专注海洋水质传感器、气象传感器、集成解决方案提供商。"
+  copyright = "© { year } 沐玥智联科技有限公司 版权所有" # 版权标准写法，{ year } 带空格，自动渲染年份
 
 [params.author]
   name = "Joe Aaron"
   image = "img/author.jpg"
-  headline = "这个人很懒！什么都没有留下……" #作者的头衔，展示在主页
+  #headline = "这个人很懒！什么都没有留下……" #作者的头衔，展示在主页
   # bio = "一个强大、轻量级的 Hugo 主题。" #作者的简介，展示在文章作者信息中
   links = [
     # { x-twitter = "https://twitter.com/burufugu" },
-    { github = "https://github.com/JoeYang65/joeyang65.github.io" },
+    # { github = "https://github.com/JoeYang65/joeyang65.github.io" },
   ]

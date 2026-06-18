@@ -1,36 +1,296 @@
-{{ $jsHome := resources.Get "js/home.js" | resources.Minify | resources.Fingerprint (.Site.Params.fingerprintAlgorithm | default "sha512") }}
-<div id="background">
-  {{ partial "home/background.html" . }}
-</div>
-<div id="hero" style="display:none">
-  {{ partial "home/hero.html" . }}
-</div>
-<div id="profile" style="display:none">
-  {{ partial "home/profile.html" . }}
-</div>
-<div id="card" style="display:none">
-  {{ partial "home/card.html" . }}
-</div>
-<div id="page" style="display:none">
-  {{ partial "home/page.html" . }}
-</div>
 
-<!-- Blowfish主题赞助名单 -->
-<!-- 
-<section class="max-w-7xl mx-auto px-4">
-  {{ partial "sponsors.html" . }}
-</section> -->
+{{/* layouts/partials/home/custom.html */}}
+{{/* 读取首页 _index.md 内容 */}}
+{{ $home := .Site.GetPage "home" }}
+{{ $homeContent := $home.Content }}
 
-<!-- Blowfish主题贡献名单 -->
-<!-- <section class="max-w-7xl mx-auto px-4">
-  {{ partial "contributors.html" . }}
-</section> -->
+<style>
+  /* 轮播局部样式，仅作用当前模块，不污染全局 */
+  .carousel-wrap {
+    position: relative;
+    overflow: hidden;
+    height: min(70vh, 600px);
+  }
+  .carousel-track {
+    height: 100%;
+    display: flex;
+    transition: transform 0.6s ease-in-out;
+  }
+  .carousel-item {
+    flex: 0 0 100%;
+    height: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .carousel-mask {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0,0,0,0.55);
+  }
+  .carousel-content {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 2rem;
+  }
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.25);
+    backdrop-filter: blur(4px);
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .carousel-btn:hover {
+    background: rgba(255,255,255,0.4);
+  }
+  .btn-prev { left: 1rem; }
+  .btn-next { right: 1rem; }
+  .carousel-dots {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    display: flex;
+    gap: 0.75rem;
+  }
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.35);
+    border: none;
+    cursor: pointer;
+  }
+  .dot.active {
+    background: #fff;
+  }
+</style>
 
-<section>
-  {{ partial "recent-articles-demo.html" . }}
+{{/* ========== 轮播Banner区域 ========== */}}
+<section class="w-full">
+  <div class="carousel-wrap" id="carousel">
+    <div class="carousel-track" id="track">
+      <!-- JS动态填充轮播项，无需手动复制DOM，维护仅改下方数组 -->
+    </div>
+    <!-- 切换按钮 -->
+    <button class="carousel-btn btn-prev" id="prevBtn">‹</button>
+    <button class="carousel-btn btn-next" id="nextBtn">›</button>
+    <!-- 圆点指示器 -->
+    <div class="carousel-dots" id="dotsBox"></div>
+  </div>
 </section>
-<script
-  defer
-  type="text/javascript"
-  src="{{ $jsHome.RelPermalink }}"
-  integrity="{{ $jsHome.Data.Integrity }}"></script>
+
+{{/* 可选：渲染 content/_index.md 首页正文，不需要直接删除或注释整块 */}}
+{{ with $homeContent }}
+<!-- <section class="py-12">
+  <div class="container mx-auto px-4 max-w-4xl">
+    {{ . }}
+  </div>
+</section> -->
+{{ end }}
+
+
+{{/* ========== 核心产品展示区（完整保留原有内容） ========== */}}
+<section class="py-16">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-12">核心产品</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- 水质传感器 --> 
+      <div class="m-2 border border-neutral-200 dark:border-neutral-700 rounded-xl p-6 shadow hover:shadow-lg transition">
+        <img 
+          src="https://images.unsplash.com/photo-1581344549416-54a8d68e28ef?w=600" 
+          alt="多参数水质传感器"
+          class="w-full h-52 object-cover rounded-lg mb-6"
+        >
+        <h3 class="text-xl font-semibold mb-2">多参数水质传感器</h3>
+        <p class="text-neutral-500 dark:text-neutral-400 mb-4">海水/淡水通用，pH、溶解氧、浊度同步检测</p>
+        <a href="/products/water" class="text-blue-600 dark:text-blue-400 hover:underline">详情介绍 →</a>
+      </div>
+      <!-- 一体化气象站 -->
+      <div class="m-2 border border-neutral-200 dark:border-neutral-700 rounded-xl p-6 shadow hover:shadow-lg transition">
+        {{ with resources.Get "img/product-weather.jpg" }}
+        <img src="{{ .RelPermalink }}" alt="一体化气象站" class="w-full h-52 object-cover rounded-lg mb-6">
+        {{ end }}
+        <h3 class="text-xl font-semibold mb-2">一体化气象站</h3>
+        <p class="text-neutral-500 dark:text-neutral-400 mb-4">户外免维护，支持无线4G传输数据</p>
+        <a href="/products/weather" class="text-blue-600 dark:text-blue-400 hover:underline">详情介绍 →</a>
+      </div>
+      <!-- 设备云平台 -->
+      <div class="m-2 border border-neutral-200 dark:border-neutral-700 rounded-xl p-6 shadow hover:shadow-lg transition">
+        {{ with resources.Get "img/product-iot.jpg" }}
+        <img src="{{ .RelPermalink }}" alt="设备云平台" class="w-full h-52 object-cover rounded-lg mb-6">
+        {{ end }}
+        <h3 class="text-xl font-semibold mb-2">设备云平台</h3>
+        <p class="text-neutral-500 dark:text-neutral-400 mb-4">远程监控、历史数据、告警推送一体化后台</p>
+        <a href="/products/cloud" class="text-blue-600 dark:text-blue-400 hover:underline">详情介绍 →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{/* ========== 企业简介区块（完整保留原有内容） ========== */}}
+<section class="py-16 bg-neutral-50 dark:bg-neutral-900">
+  <div class="container mx-auto px-4 max-w-4xl">
+    <h2 class="text-3xl font-bold mb-6">关于我们</h2>
+    <p class="text-neutral-600 dark:text-neutral-300 leading-relaxed text-lg">
+      公司深耕环境监测领域多年，拥有自主研发实验室，产品广泛应用于海洋监测、市政环保、水库水利、养殖等场景，提供硬件设备+软件平台一站式交付服务。
+    </p>
+  </div>
+</section>
+
+{{/* ========== 轮播逻辑JS ========== */}}
+
+<script>
+// ==================== 【维护入口：仅修改此数组即可增删Banner，共5组示例】 ====================
+
+const carouselSlides = [
+  {
+    bgImage: "/img/banner1.jpg",
+    title: "沐玥智联 - 海洋环境监测设备服务商",
+    desc: "专注水质、气象、海洋传感设备研发与整体解决方案",
+    btn1Text: "查看全部产品",
+    btn1Link: "/products",
+    btn2Text: "商务洽谈",
+    btn2Link: "/contact"
+  },
+  {
+    bgImage: "/img/banner2.jpg",
+    title: "高精度水质监测系列",
+    desc: "海水淡水多参数同步检测，耐腐蚀长期水下稳定工作",
+    btn1Text: "水质传感器详情",
+    btn1Link: "/products/water",
+    btn2Text: "在线咨询方案",
+    btn2Link: "/contact"
+  },
+  {
+    bgImage: "/img/banner3.jpg",
+    title: "一体化户外气象采集终端",
+    desc: "免维护一体化设计，4G无线传输，适配水库、海洋、园区场景",
+    btn1Text: "气象站产品",
+    btn1Link: "/products/weather",
+    btn2Text: "获取报价",
+    btn2Link: "/contact"
+  },
+  {
+    bgImage: "/img/banner4.jpg",
+    title: "设备云管理监控平台",
+    desc: "远程实时监控、历史数据存储、超限告警、报表导出一体化系统",
+    btn1Text: "云平台介绍",
+    btn1Link: "/products/cloud",
+    btn2Text: "预约演示",
+    btn2Link: "/contact"
+  },
+  {
+    bgImage: "/img/banner5.jpg",
+    title: "一站式环境监测整体解决方案",
+    desc: "硬件设备+软件平台+安装运维全链条服务，支持项目定制开发",
+    btn1Text: "全部产品中心",
+    btn1Link: "/products",
+    btn2Text: "联系商务合作",
+    btn2Link: "/contact"
+  }
+];
+// =============================================================================
+
+// 轮播控制逻辑
+const track = document.getElementById("track");
+const dotsBox = document.getElementById("dotsBox");
+const prevBtn = document.getElementById("prevBtn");
+const nextBtn = document.getElementById("nextBtn");
+const carouselWrap = document.getElementById("carousel");
+
+let currentIndex = 0;
+const slideCount = carouselSlides.length;
+let autoTimer = null;
+
+// 渲染轮播DOM
+function renderCarousel() {
+  track.innerHTML = "";
+  dotsBox.innerHTML = "";
+
+  carouselSlides.forEach((item, idx) => {
+    // 生成单张轮播项
+    const slideDiv = document.createElement("div");
+    slideDiv.className = "carousel-item";
+    slideDiv.style.backgroundImage = `url(${item.bgImage})`;
+    slideDiv.innerHTML = `
+      <div class="carousel-mask"></div>
+      <div class="carousel-content container mx-auto px-4">
+        <h1 class="text-4xl md:text-5xl font-bold mb-6">${item.title}</h1>
+        <p class="text-xl max-w-3xl mx-auto mb-10">${item.desc}</p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <a href="${item.btn1Link}" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">${item.btn1Text}</a>
+          <a href="${item.btn2Link}" class="px-6 py-3 border border-white rounded-lg hover:bg-white/10 transition">${item.btn2Text}</a>
+        </div>
+      </div>
+    `;
+    track.appendChild(slideDiv);
+
+    // 生成圆点
+    const dot = document.createElement("button");
+    dot.className = "dot" + (idx === 0 ? " active" : "");
+    dot.onclick = () => goSlide(idx);
+    dotsBox.appendChild(dot);
+  });
+}
+
+// 更新轮播位置与圆点激活态
+function updateCarousel() {
+  track.style.transform = `translateX(-${currentIndex * 100}%)`;
+  const dots = dotsBox.querySelectorAll(".dot");
+  dots.forEach((dot, idx) => {
+    dot.classList.toggle("active", idx === currentIndex);
+  });
+}
+
+// 跳转指定轮播
+function goSlide(index) {
+  currentIndex = index;
+  if (currentIndex >= slideCount) currentIndex = 0;
+  if (currentIndex < 0) currentIndex = slideCount - 1;
+  updateCarousel();
+  resetAutoPlay();
+}
+
+// 上一张、下一张
+function prevSlide() { goSlide(currentIndex - 1); }
+function nextSlide() { goSlide(currentIndex + 1); }
+
+// 自动轮播
+function startAutoPlay() {
+  autoTimer = setInterval(() => nextSlide(), 6000);
+}
+function stopAutoPlay() { clearInterval(autoTimer); }
+function resetAutoPlay() {
+  stopAutoPlay();
+  startAutoPlay();
+}
+
+// 绑定事件
+prevBtn.addEventListener("click", prevSlide);
+nextBtn.addEventListener("click", nextSlide);
+carouselWrap.addEventListener("mouseenter", stopAutoPlay);
+carouselWrap.addEventListener("mouseleave", startAutoPlay);
+
+// 初始化渲染
+renderCarousel();
+startAutoPlay();
+</script>
