@@ -115,11 +115,9 @@
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       <!-- 水质传感器 --> 
       <div class="m-2 border border-neutral-200 dark:border-neutral-700 rounded-xl p-6 shadow hover:shadow-lg transition">
-        <img 
-          src="https://images.unsplash.com/photo-1581344549416-54a8d68e28ef?w=600" 
-          alt="多参数水质传感器"
-          class="w-full h-52 object-cover rounded-lg mb-6"
-        >
+        {{ with resources.Get "img/product-sensor.jpg" }}
+        <img src="{{ .RelPermalink }}" alt="多参数水质传感器" class="w-full h-52 object-cover rounded-lg mb-6">
+        {{ end }}
         <h3 class="text-xl font-semibold mb-2">多参数水质传感器</h3>
         <p class="text-neutral-500 dark:text-neutral-400 mb-4">海水/淡水通用，pH、溶解氧、浊度同步检测</p>
         <a href="/products/water" class="text-blue-600 dark:text-blue-400 hover:underline">详情介绍 →</a>
