@@ -25,7 +25,7 @@ disableImageOptimizationMD = false
 disableTextInHeader = false
 # backgroundImageWidth = 1200
 
-defaultBackgroundImage = "/img/background.svg" # used as default for background images
+defaultBackgroundImage = "/img/ripples.svg" # used as default for background images
 defaultFeaturedImage = "/img/featured.svg" # used as default for featured images in all articles
 defaultSocialImage = "/img/blowfish_banner.png" # used as default for social media sharing (Open Graph and Twitter)
 hotlinkFeatureImage = false
@@ -66,14 +66,14 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   disableHeroImageFilter = false # only used when layout equals hero
 
 [article]
-  showDate = true
+  showDate = false # 是否显示文章的发布日期
   showViews = false
   showLikes = false
-  showDateOnlyInArticle = false #是否只在文章内显示日期。true只在文章页内显示，文章列表页不显示；false文章页内显示及文章列表页都显示
-  showDateUpdated = true
+  showDateOnlyInArticle = false # 是否只在文章内显示日期。true只在文章页内显示，文章列表页不显示；false文章页内显示及文章列表页都显示
+  showDateUpdated = false # 是否显示文章的更新日期
   showAuthor = false # 是否显示作者
   # showAuthorBottom = false
-  showHero = false
+  showHero = true
   heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = false # only used when heroStyle equals background
@@ -86,17 +86,17 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showHeadingAnchors = true
   showPagination = true
   invertPagination = false
-  showReadingTime = false #是否展示文章的阅读时间。如果你的语言包含 CJK 语言，需要在 hugo.toml 中开启 hasCJKLanguage 参数。
-  showTableOfContents = true
+  showReadingTime = false # 是否展示文章的阅读时间。如果你的语言包含 CJK 语言，需要在 hugo.toml 中开启 hasCJKLanguage 参数。
+  showTableOfContents = true # 是否展示目录。
   showRelatedContent = true
   relatedContentLimit = 6
   showTaxonomies = true # use showTaxonomies OR showCategoryOnly, not both
   showCategoryOnly = false # use showTaxonomies OR showCategoryOnly, not both
   showAuthorsBadges = false
-  showWordCount = false #显示文章字数。 如果你的语言属于 CJK 语言，需要在 hugo.toml 中开启 hasCJKLanguage 参数。
+  showWordCount = false # 显示文章字数。 如果你的语言属于 CJK 语言，需要在 hugo.toml 中开启 hasCJKLanguage 参数。
   # sharingLinks = [ "linkedin", "twitter", "bluesky", "mastodon", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram", "line"]
-  showZenMode = true
-  # externalLinkForceNewTab = false # disable to allow external links in the same tab (defaults to true)
+  showZenMode = true # 是否显示文章阅读的禅模式（Zen Mode）切换按钮，即阅读模式，会隐藏常规的界面元素。
+ externalLinkForceNewTab = true # disable to allow external links in the same tab (defaults to true)
 
 [list]
   showHero = true
@@ -107,10 +107,10 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showSummary = false
   showViews = false
   showLikes = false
-  showTableOfContents = true
+  showTableOfContents = false # 是否展示目录。
   showCards = true
   orderByWeight = true
-  groupByYear = true
+  groupByYear = false
   cardView = true
   cardViewScreenWidth = false
   constrainItemsWidth = false
@@ -122,11 +122,11 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showTermCount = true
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  showBreadcrumbs = false
+  showBreadcrumbs = true
   showViews = false
   showLikes = false
   showTableOfContents = true
-  cardView = false
+  cardView = true
 
 [term]
   showHero = true

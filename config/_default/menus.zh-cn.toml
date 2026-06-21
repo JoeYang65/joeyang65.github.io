@@ -21,7 +21,7 @@
 
 [[main]]
   name = "解决方案"
-  pageRef = "solution"
+  pageRef = "solutions"
   weight = 3
 
 [[main]]

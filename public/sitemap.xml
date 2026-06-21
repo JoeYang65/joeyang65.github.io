@@ -3,26 +3,68 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/docs/hugo/hugo-post1/</loc>
-    <lastmod>2026-06-17T15:08:12+08:00</lastmod>
+    <loc>http://localhost:1313/products/p1/</loc>
+    <lastmod>2026-06-19T22:20:03+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/docs/hugo/hugo-post3/</loc>
-    <lastmod>2026-06-17T15:08:12+08:00</lastmod>
+    <loc>http://localhost:1313/solutions/s1-post1/</loc>
+    <lastmod>2026-06-20T12:45:42+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/products/p1/wimo/</loc>
+    <lastmod>2026-06-21T00:21:58+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/products/p2/</loc>
+    <lastmod>2026-06-20T12:57:35+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/products/p2/hugo-post3/</loc>
+    <lastmod>2026-06-19T20:00:25+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/products/p3/</loc>
+    <lastmod>2026-06-20T13:06:50+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/solutions/</loc>
+    <lastmod>2026-06-20T12:45:42+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/products/p3/weather1/</loc>
+    <lastmod>2026-06-20T22:21:22+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/products/</loc>
+    <lastmod>2026-06-19T21:05:15+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2026-06-21T00:42:59+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2026-06-18T19:35:17+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/docs/</loc>
-    <lastmod>2026-06-17T15:08:12+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
