@@ -1,16 +1,13 @@
----
-title: WiMo多参数探头
-weight: 1
-draft: false
-description: WiMo多参数探头
-tags:
-  - 水质
-series: []
-series_order: 1
-date: 2025-01-15T13:18:50-07:00
-featureimage: feature.png
-fmContentType: parent
----
++++
+title = "WiMo多参数探头"
+description = "WiMo多参数探头"
+date = 2025-01-15T13:18:50-07:00
+draft = false
+weight = 1
+tags = [ "水质" ]
+series = []
+series_order = 1
++++
 
 
 ## WiMo 新一代多参数探头

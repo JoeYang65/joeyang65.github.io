@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2026 沐玥智联科技有限公司 版权所有</copyright>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Jun 2026 00:50:11 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>企业信息</title>
+      <link>http://localhost:1313/categories/%E4%BC%81%E4%B8%9A%E4%BF%A1%E6%81%AF/</link>
+      <pubDate>Sun, 21 Jun 2026 17:25:43 +0800</pubDate>
+      
+      <guid>http://localhost:1313/categories/%E4%BC%81%E4%B8%9A%E4%BF%A1%E6%81%AF/</guid>
+      <description></description>
+      
+    </item>
     
   </channel>
 </rss>

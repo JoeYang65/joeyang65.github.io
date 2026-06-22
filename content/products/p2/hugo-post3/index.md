@@ -1,21 +1,22 @@
----
-title: Front Matter CMS 插件的使用
-description: 这是关于 VS Code 插件 Front Matter CMS 的使用
-date: 2026-02-02T16:38:12+08:00
-featureimage: feature
-draft: false
-tags:
-    - 气象
-categories: []
-weight: 3
-series:
-    - Hugo系列
-series_order: 3
-fmContentType: parent
----
++++
+title = "水位计"
+description = "水位计的描述"
+tags = [ "水质" ]
++++
 
-![front matter CMS](https://frontmatter.codes/releases/v7.2.0/welcome-screen-7.2.0.png)
 
+
+
+
+{{< gallery >}}
+  <img src="gallery/01.jpg" class="grid-w33" />
+  <img src="gallery/02.jpg" class="grid-w33" />
+  <img src="gallery/03.jpg" class="grid-w33" />
+  <img src="gallery/04.jpg" class="grid-w33" />
+  <img src="gallery/05.jpg" class="grid-w33" />
+  <img src="gallery/06.jpg" class="grid-w33" />
+  <img src="gallery/07.jpg" class="grid-w33" />
+{{< /gallery >}}
 ## 概述
 你是否厌倦了手动管理你的 markdown 文章？你想简化内容创作和管理流程吗？不用再找了，看看 Visual Studio Code 的 Front Matter 扩展。
 

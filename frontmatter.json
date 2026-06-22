@@ -1,8 +1,9 @@
 {
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.frontMatterType": "TOML",
   "frontMatter.taxonomy.contentTypes": [
     {
-      "name": "parent",
+      "name": "default",
       "pageBundle": true,
       "allowAsSubContent": true,
       "previewPath": null,
@@ -59,6 +60,16 @@
           "title": "series_order",
           "name": "series_order",
           "type": "number"
+        },
+        {
+          "title": "showHero",
+          "name": "showHero",
+          "type": "boolean"
+        },
+        {
+          "title": "heroStyle",
+          "name": "heroStyle",
+          "type": "string"
         }
       ]
     }
@@ -68,8 +79,9 @@
   "frontMatter.preview.host": "http://localhost:1313",
   "frontMatter.content.pageFolders": [
     {
-      "title": "content",
-      "path": "[[workspace]]/content"
+      "title": "contentPage",
+      "path": "[[workspace]]/content",
+      "contentTypes": ["default"]
     }
   ],
   "frontMatter.git.enabled": true
