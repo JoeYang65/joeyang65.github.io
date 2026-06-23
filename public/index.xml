@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>首页-沐玥智联科技有限公司 Mojoy Link Tech on 沐玥智联科技有限公司&lt;/br&gt; MOJOY LINK TECH</title>
+    <title>首页-沐玥智联科技有限公司 Mojoy Link Tech on 沐玥智联科技有限公司 | MOJOY LINK TECH</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in 首页-沐玥智联科技有限公司 Mojoy Link Tech on 沐玥智联科技有限公司&lt;/br&gt; MOJOY LINK TECH</description>
+    <description>Recent content in 首页-沐玥智联科技有限公司 Mojoy Link Tech on 沐玥智联科技有限公司 | MOJOY LINK TECH</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2026 沐玥智联科技有限公司 版权所有</copyright>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Solution1 test</title>
+      <title>Solution1 test 解决方案1</title>
       <link>http://localhost:1313/solutions/s1-post1/</link>
-      <pubDate>Thu, 15 Jan 2026 13:18:50 -0700</pubDate>
+      <pubDate>Tue, 23 Jun 2026 21:46:04 +0800</pubDate>
       
       <guid>http://localhost:1313/solutions/s1-post1/</guid>
       <description>&lt;!-- ![iceland](/img/iceland.jpg) --&gt;&#xD;&#xA;&#xD;&#xA;&lt;figure&gt;&lt;a href=&#34;https://www.nps.gov/zion/index.htm&#34; target=&#34;_blank&#34; class=&#34;inline-block&#34;&gt;&#xD;&#xA;        &lt;img&#xD;&#xA;          class=&#34;my-0 rounded-md&#34;&#xD;&#xA;          src=&#34;http://localhost:1313/solutions/s1-post1/xxxbbb.svg&#34;&#xD;&#xA;          alt=&#34;A photograph of Blowfish&#34;&#xD;&#xA;        /&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;  &#xD;&#xA;  &lt;/figure&gt;&#xA;&lt;figure&gt;&lt;img&#xD;&#xA;    class=&#34;my-0 rounded-md&#34;&#xD;&#xA;    loading=&#34;lazy&#34;&#xD;&#xA;    decoding=&#34;async&#34;&#xD;&#xA;    fetchpriority=&#34;low&#34;&#xD;&#xA;    alt=&#34;image&#34;&#xD;&#xA;    src=&#34;https://gohugo.io/img/hugo-logo.png&#34;&#xD;&#xA;    &gt;&lt;/figure&gt;&#xD;&#xA;&#xD;&#xA;&lt;h1 class=&#34;relative group&#34;&gt;欢迎使用Hugo框架&#xD;&#xA;    &lt;div id=&#34;欢迎使用hugo框架&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e6%ac%a2%e8%bf%8e%e4%bd%bf%e7%94%a8hugo%e6%a1%86%e6%9e%b6&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;Hugo是世界上最快的网站构建框架。&lt;/p&gt;&#xA;&lt;p&gt;Hugo 是最受欢迎的开源静态网站生成器之一。凭借其惊人的速度和灵活性，Hugo 让搭建网站重新变得有趣。&lt;/p&gt;</description>
@@ -22,11 +22,21 @@
     <item>
       <title>WiMo多参数探头</title>
       <link>http://localhost:1313/products/p1/wimo/</link>
-      <pubDate>Wed, 15 Jan 2025 13:18:50 -0700</pubDate>
+      <pubDate>Tue, 23 Jun 2026 21:37:46 +0800</pubDate>
       
       <guid>http://localhost:1313/products/p1/wimo/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;WiMo 新一代多参数探头&#xD;&#xA;    &lt;div id=&#34;wimo-新一代多参数探头&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#wimo-%e6%96%b0%e4%b8%80%e4%bb%a3%e5%a4%9a%e5%8f%82%e6%95%b0%e6%8e%a2%e5%a4%b4&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;WiMo 探头可同时连接多达 7 个传感器，最多可测量 20 项水质参数。WiMo 探头配备智能数字传感器套件，包括用于维护传感器的电动刷头。即使探头正在现场运行，您也可以随时随地连接和断开传感器。&#xA;&lt;figure&gt;&lt;img&#xD;&#xA;    class=&#34;my-0 rounded-md&#34;&#xD;&#xA;    loading=&#34;lazy&#34;&#xD;&#xA;    decoding=&#34;async&#34;&#xD;&#xA;    fetchpriority=&#34;auto&#34;&#xD;&#xA;    alt=&#34;brochure1&#34;&#xD;&#xA;    width=&#34;2480&#34;&#xD;&#xA;    height=&#34;3508&#34;&#xD;&#xA;    src=&#34;http://localhost:1313/products/p1/wimo/brochure1_hu_e6897fc71cc69baf.png&#34;&#xD;&#xA;    srcset=&#34;http://localhost:1313/products/p1/wimo/brochure1_hu_e6897fc71cc69baf.png 800w, http://localhost:1313/products/p1/wimo/brochure1_hu_4f087007b7fcea55.png 1280w&#34;&#xD;&#xA;    sizes=&#34;(min-width: 768px) 50vw, 65vw&#34;&#xD;&#xA;    data-zoom-src=&#34;http://localhost:1313/products/p1/wimo/brochure1.png&#34;&gt;&lt;/figure&gt;&#xD;&#xA;&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/p1/wimo/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>Weather1</title>
+      <link>http://localhost:1313/products/p3/weather1/</link>
+      <pubDate>Tue, 23 Jun 2026 21:40:33 +0800</pubDate>
+      
+      <guid>http://localhost:1313/products/p3/weather1/</guid>
+      <description>&lt;p&gt;这里是气象1&lt;/p&gt;&#xA;&lt;p&gt;Weather you can said something&lt;/p&gt;</description>
+      
     </item>
     
     <item>
@@ -46,16 +56,6 @@
       
       <guid>http://localhost:1313/about/</guid>
       <description>&lt;!-- 图片选用：水环境气象监测 蓝色科技矢量背景 --&gt;&#xA;&#xD;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;企业概述&#xD;&#xA;    &lt;div id=&#34;企业概述&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%bc%81%e4%b8%9a%e6%a6%82%e8%bf%b0&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;沐玥智联科技扎根青岛，聚焦水环境、大气气象两大环境监测核心赛道，面向国内高校、科研院所、生态环境主管单位、生产企业、产业园区提供专业化配套服务。&#xA;业务覆盖水质监测仪器、气象采集终端、海洋浮标系统、自动取样设备、数据采集器等全系列设备供货，同时承接监测项目整体实施、野外站点搭建、设备长期运维托管等配套服务。&lt;/p&gt;&#xA;&lt;p&gt;公司依托成熟行业供应链资源与多年一线科研项目落地实操经验，深耕科研场景监测需求，针对课题申报、野外观测、长期定点监测等差异化场景提供定制化成套解决方案，兼顾方案合规性、设备稳定性与项目落地性价比。&lt;/p&gt;&#xA;&lt;!-- 图片选用：野外监测设备作业简约插画 / 概念图 --&gt;&#xA;&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;  &#xD;&#xA;  &#xD;&#xA;  &#xD;&#xA;  &#xD;&#xA;  &#xD;&#xA;  &lt;div class=&#34;width-patch&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;div id=&#34;gallery-2bc053111729a74bce2ff033e7cdfe90&#34; class=&#34;gallery&#34;&gt;&#xD;&#xA;  &#xA;  &lt;img src=&#34;http://localhost:1313/about/gallery/01.jpg&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34; /&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/about/gallery/02.jpg&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34; /&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/about/gallery/03.jpg&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34; /&gt;&#xA;  &lt;!-- &lt;img src=&#34;gallery/04.jpg&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34; /&gt;&#xA;  &lt;img src=&#34;gallery/05.jpg&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34; /&gt;&#xA;  &lt;img src=&#34;gallery/06.jpg&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34; /&gt;&#xA;  &lt;img src=&#34;gallery/07.jpg&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34; /&gt; --&gt;&#xA;&lt;/div&gt;&#xD;&#xA;&#xA;&#xD;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;行业积淀与核心优势&#xD;&#xA;    &lt;div id=&#34;行业积淀与核心优势&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e8%a1%8c%e4%b8%9a%e7%a7%af%e6%b7%80%e4%b8%8e%e6%a0%b8%e5%bf%83%e4%bc%98%e5%8a%bf&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;团队核心成员深耕环境监测科研配套领域多年，全程深度参与多类国家级、省级科研监测项目全流程落地，拥有完整的项目方案设计、设备选型统筹、现场实施调试、后期运维管理实操经验。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Weather1</title>
-      <link>http://localhost:1313/products/p3/weather1/</link>
-      <pubDate>Thu, 15 Jan 2026 13:18:50 -0700</pubDate>
-      
-      <guid>http://localhost:1313/products/p3/weather1/</guid>
-      <description>&lt;p&gt;这里是气象1&lt;/p&gt;&#xA;&lt;p&gt;Weather you can said something&lt;/p&gt;</description>
       
     </item>
     

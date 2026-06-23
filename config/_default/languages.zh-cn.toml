@@ -1,7 +1,7 @@
 locale = "zh-cn"
 label = "简体中文"
 weight = 1
-title = "沐玥智联科技有限公司</br> MOJOY LINK TECH"
+title = "沐玥智联科技有限公司 | MOJOY LINK TECH"
 
 
 [params]
@@ -9,7 +9,7 @@ title = "沐玥智联科技有限公司</br> MOJOY LINK TECH"
   isoCode = "zh-cn"
   rtl = false #RTL语言，从右向左重排内容
   dateFormat = "2006-01-02" #使用Hugo框架的时间格式组件创建日期字符串格式，例如：2006 代表 year组件，表示日期字符串的年部分
-  logo = "img/MojoyLinkTech_logo.svg"
+  logo = "img/mojoylink-logo.png"
   description = "沐玥智联科技有限公司，专注海洋水质传感器、气象传感器、集成解决方案提供商。"
   copyright = "© { year } 沐玥智联科技有限公司 版权所有" # 版权标准写法，{ year } 带空格，自动渲染年份
 

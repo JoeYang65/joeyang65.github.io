@@ -22,7 +22,7 @@ showPagination = false
 
 
 ### 商务邮箱 / Mail
-{{< icon "envelope" >}}  **879742635@qq.com**
+{{< icon "envelope" >}}  **moirazhang122@foxmail.com**
 
 ### 服务范围 / Service Scope
 沐玥智联专注水质、气象传感设备研发制造，提供硬件终端+云端管理平台+安装运维全链条服务，产品覆盖海洋监测、水库水利、市政环保、水产养殖等场景，支持项目个性化开发交付。

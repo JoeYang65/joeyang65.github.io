@@ -1,17 +1,10 @@
----
-title: Solution1 test
-weight: 1
-draft: false
-description: Hugo建站历程记录
-tags:
-  - 水质
-series:
-  - Hugo系列
-series_order: 1
-date: 2026-01-15T13:18:50-07:00
-featureimage: feature.png
-fmContentType: parent
----
++++
+title = "Solution1 test 解决方案1"
+description = "解决方案描述"
+date = "2026-06-23T21:46:04+08:00"
+weight = 1
+draft = false
++++
 
 <!-- ![iceland](/img/iceland.jpg) -->
 

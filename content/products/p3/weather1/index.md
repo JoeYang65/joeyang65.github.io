@@ -1,13 +1,12 @@
----
-title: Weather1
-draft: false
-description: Weather1 description
-tags:
-  - 气象
-series_order: 1
-date: 2026-01-15T13:18:50-07:00
-fmContentType: parent
----
++++
+title = "Weather1"
+description = "Weather1 description"
+date = "2026-06-23T21:40:33+08:00"
+draft = false
+tags = [ "气象" ]
+series_order = 1
+
++++
 
 
 

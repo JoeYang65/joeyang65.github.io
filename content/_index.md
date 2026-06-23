@@ -1,7 +1,12 @@
----
-title: "首页-沐玥智联科技有限公司 Mojoy Link Tech"
-description: "主营传感器、智能设备、一体化系统方案"
----
++++
+title = "首页-沐玥智联科技有限公司 Mojoy Link Tech"
+description = "主营传感器、智能设备、一体化系统方案"
++++
+
+
+homepage.layout = "custom" 时，通过/layouts/partials/home/custom.html 文件以定制自己的布局
+
+不使用本页面
 
 # 企业核心产品展示
 ## 核心优势
