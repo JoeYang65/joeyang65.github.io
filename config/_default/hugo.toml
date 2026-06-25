@@ -3,7 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish" 
-baseURL = "https://localhost:1313"
+baseURL = "https://www.mojoylink.com/"
 defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = false
 

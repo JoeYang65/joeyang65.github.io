@@ -81,8 +81,11 @@
     {
       "title": "contentPage",
       "path": "[[workspace]]/content",
-      "contentTypes": ["default"]
+      "contentTypes": [
+        "default"
+      ]
     }
   ],
-  "frontMatter.git.enabled": true
+  "frontMatter.git.enabled": true,
+  "frontMatter.git.commitMessage": "Synced {{year}}-{{month}}-{{day}}"
 }
