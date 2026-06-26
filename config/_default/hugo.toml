@@ -10,8 +10,8 @@ defaultContentLanguageInSubdir = false
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
-enableRobotsTXT = true
-summaryLength = 30
+enableRobotsTXT = true # 当开启这个值，robots.txt 文件将会被创建在站点根目录， 这将允许搜索引擎抓取整个网站。
+summaryLength = 30 # 当扉页参数 中没有提供文章摘要时，此参数定义了自动生成文章摘要的单词数量。如果值为0，则默认使用第一句话作为摘要。当摘要被隐藏，这个值没有任何效果。
 
 buildDrafts = false
 buildFuture = false
@@ -45,7 +45,7 @@ timeZone = 'Asia/Shanghai'
   home = ["HTML", "RSS", "JSON"]
 
 [related]
-  threshold = 0
+  threshold = 80 # 相关文章推荐的阈值，数值范围在0-100之间。数值越小，相关度越低，但匹配结果就越多。
   toLower = false
 
     [[related.indices]]

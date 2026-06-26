@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>气象观测设备 on 沐玥智联科技有限公司 | MOJOY LINK TECH</title>
+    <link>http://localhost:1313/products/met/</link>
+    <description>Recent content in 气象观测设备 on 沐玥智联科技有限公司 | MOJOY LINK TECH</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2026 沐玥智联科技有限公司 版权所有</copyright>
+    <lastBuildDate>Fri, 26 Jun 2026 23:02:13 +0800</lastBuildDate><atom:link href="http://localhost:1313/products/met/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>MET-AWS-PR8 自动气象监测站</title>
+      <link>http://localhost:1313/products/met/met-aws-pr8/</link>
+      <pubDate>Fri, 26 Jun 2026 22:06:36 +0800</pubDate>
+      
+      <guid>http://localhost:1313/products/met/met-aws-pr8/</guid>
+      <description>MET-AWS-PR8自动气象监测站集成温湿度、风速风向、降水、辐射、大气压传感器，支持太阳能供电，全天候野外无人值守气象观测。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/met/met-aws-pr8/feature.png" />
+    </item>
+    
+    <item>
+      <title>MET-AWS-TH14 空气温湿度传感器</title>
+      <link>http://localhost:1313/products/met/met-aws-th14/</link>
+      <pubDate>Fri, 26 Jun 2026 22:06:36 +0800</pubDate>
+      
+      <guid>http://localhost:1313/products/met/met-aws-th14/</guid>
+      <description>MET-AWS-TH14 高精度温湿度传感器配备不锈钢滤网与防雨防辐射罩，温湿度长期稳定，RS485 信号输出，适配气象站野外长期温湿度连续观测。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/met/met-aws-th14/feature.png" />
+    </item>
+    
+    <item>
+      <title>MET-AWS12 自动气象监测系统</title>
+      <link>http://localhost:1313/products/met/met-aws12/</link>
+      <pubDate>Fri, 26 Jun 2026 22:06:36 +0800</pubDate>
+      
+      <guid>http://localhost:1313/products/met/met-aws12/</guid>
+      <description>MET-AWS12 多通道自动气象监测系统具备多路模拟 / 脉冲采集通道，可搭配温湿度、风、雨量、土壤多类气象传感器，支持 SD 卡本地存储、4G 无线传输，休眠低功耗，适配野外长期无人值守气象梯度观测。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/met/met-aws12/feature.png" />
+    </item>
+    
+  </channel>
+</rss>

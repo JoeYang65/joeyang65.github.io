@@ -10,6 +10,16 @@
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>MET-AWS-PR8 自动气象监测站</title>
+      <link>http://localhost:1313/products/met/met-aws-pr8/</link>
+      <pubDate>Fri, 26 Jun 2026 22:06:36 +0800</pubDate>
+      
+      <guid>http://localhost:1313/products/met/met-aws-pr8/</guid>
+      <description>MET-AWS-PR8自动气象监测站集成温湿度、风速风向、降水、辐射、大气压传感器，支持太阳能供电，全天候野外无人值守气象观测。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/met/met-aws-pr8/feature.png" />
+    </item>
+    
+    <item>
       <title>Solution1 test 解决方案1</title>
       <link>http://localhost:1313/solutions/s1-post1/</link>
       <pubDate>Tue, 23 Jun 2026 21:46:04 +0800</pubDate>
@@ -21,22 +31,32 @@
     
     <item>
       <title>WiMo多参数探头</title>
-      <link>http://localhost:1313/products/p1/wimo/</link>
+      <link>http://localhost:1313/products/wq/wimo/</link>
       <pubDate>Tue, 23 Jun 2026 21:37:46 +0800</pubDate>
       
-      <guid>http://localhost:1313/products/p1/wimo/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;WiMo 新一代多参数探头&#xD;&#xA;    &lt;div id=&#34;wimo-新一代多参数探头&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#wimo-%e6%96%b0%e4%b8%80%e4%bb%a3%e5%a4%9a%e5%8f%82%e6%95%b0%e6%8e%a2%e5%a4%b4&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;WiMo 探头可同时连接多达 7 个传感器，最多可测量 20 项水质参数。WiMo 探头配备智能数字传感器套件，包括用于维护传感器的电动刷头。即使探头正在现场运行，您也可以随时随地连接和断开传感器。&#xA;&lt;figure&gt;&lt;img&#xD;&#xA;    class=&#34;my-0 rounded-md&#34;&#xD;&#xA;    loading=&#34;lazy&#34;&#xD;&#xA;    decoding=&#34;async&#34;&#xD;&#xA;    fetchpriority=&#34;auto&#34;&#xD;&#xA;    alt=&#34;brochure1&#34;&#xD;&#xA;    width=&#34;2480&#34;&#xD;&#xA;    height=&#34;3508&#34;&#xD;&#xA;    src=&#34;http://localhost:1313/products/p1/wimo/brochure1_hu_e6897fc71cc69baf.png&#34;&#xD;&#xA;    srcset=&#34;http://localhost:1313/products/p1/wimo/brochure1_hu_e6897fc71cc69baf.png 800w, http://localhost:1313/products/p1/wimo/brochure1_hu_4f087007b7fcea55.png 1280w&#34;&#xD;&#xA;    sizes=&#34;(min-width: 768px) 50vw, 65vw&#34;&#xD;&#xA;    data-zoom-src=&#34;http://localhost:1313/products/p1/wimo/brochure1.png&#34;&gt;&lt;/figure&gt;&#xD;&#xA;&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/p1/wimo/feature.jpg" />
+      <guid>http://localhost:1313/products/wq/wimo/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;产品简介&#xD;&#xA;    &lt;div id=&#34;产品简介&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%ba%a7%e5%93%81%e7%ae%80%e4%bb%8b&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;WiMo 探头可同时连接多达 7 个传感器，最多可测量 20 项水质参数。WiMo 探头配备智能数字传感器套件，包括用于维护传感器的电动刷头。即使探头正在现场运行，您也可以随时随地连接和断开传感器。&#xA;&lt;figure&gt;&lt;img&#xD;&#xA;    class=&#34;my-0 rounded-md&#34;&#xD;&#xA;    loading=&#34;lazy&#34;&#xD;&#xA;    decoding=&#34;async&#34;&#xD;&#xA;    fetchpriority=&#34;auto&#34;&#xD;&#xA;    alt=&#34;brochure1&#34;&#xD;&#xA;    width=&#34;2480&#34;&#xD;&#xA;    height=&#34;3508&#34;&#xD;&#xA;    src=&#34;http://localhost:1313/products/wq/wimo/brochure1_hu_e6897fc71cc69baf.png&#34;&#xD;&#xA;    srcset=&#34;http://localhost:1313/products/wq/wimo/brochure1_hu_e6897fc71cc69baf.png 800w, http://localhost:1313/products/wq/wimo/brochure1_hu_4f087007b7fcea55.png 1280w&#34;&#xD;&#xA;    sizes=&#34;(min-width: 768px) 50vw, 65vw&#34;&#xD;&#xA;    data-zoom-src=&#34;http://localhost:1313/products/wq/wimo/brochure1.png&#34;&gt;&lt;/figure&gt;&#xD;&#xA;&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/wq/wimo/feature.jpg" />
     </item>
     
     <item>
-      <title>Weather1</title>
-      <link>http://localhost:1313/products/p3/weather1/</link>
-      <pubDate>Tue, 23 Jun 2026 21:40:33 +0800</pubDate>
+      <title>MET-AWS-TH14 空气温湿度传感器</title>
+      <link>http://localhost:1313/products/met/met-aws-th14/</link>
+      <pubDate>Fri, 26 Jun 2026 22:06:36 +0800</pubDate>
       
-      <guid>http://localhost:1313/products/p3/weather1/</guid>
-      <description>&lt;p&gt;这里是气象1&lt;/p&gt;&#xA;&lt;p&gt;Weather you can said something&lt;/p&gt;</description>
+      <guid>http://localhost:1313/products/met/met-aws-th14/</guid>
+      <description>MET-AWS-TH14 高精度温湿度传感器配备不锈钢滤网与防雨防辐射罩，温湿度长期稳定，RS485 信号输出，适配气象站野外长期温湿度连续观测。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/met/met-aws-th14/feature.png" />
+    </item>
+    
+    <item>
+      <title>MET-AWS12 自动气象监测系统</title>
+      <link>http://localhost:1313/products/met/met-aws12/</link>
+      <pubDate>Fri, 26 Jun 2026 22:06:36 +0800</pubDate>
       
+      <guid>http://localhost:1313/products/met/met-aws12/</guid>
+      <description>MET-AWS12 多通道自动气象监测系统具备多路模拟 / 脉冲采集通道，可搭配温湿度、风、雨量、土壤多类气象传感器，支持 SD 卡本地存储、4G 无线传输，休眠低功耗，适配野外长期无人值守气象梯度观测。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/met/met-aws12/feature.png" />
     </item>
     
     <item>
@@ -61,12 +81,12 @@
     
     <item>
       <title>水位计</title>
-      <link>http://localhost:1313/products/p2/hugo-post3/</link>
+      <link>http://localhost:1313/products/h/hugo-post3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/products/p2/hugo-post3/</guid>
-      <description>&lt;div class=&#34;width-patch&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;div id=&#34;gallery-e6e56df63cd356be704c05c5fabb9ef3&#34; class=&#34;gallery&#34;&gt;&#xD;&#xA;  &#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/products/p2/hugo-post3/gallery/01.jpg&#34; class=&#34;grid-w33&#34; /&gt;&#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/products/p2/hugo-post3/gallery/02.jpg&#34; class=&#34;grid-w33&#34; /&gt;&#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/products/p2/hugo-post3/gallery/03.jpg&#34; class=&#34;grid-w33&#34; /&gt;&#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/products/p2/hugo-post3/gallery/04.jpg&#34; class=&#34;grid-w33&#34; /&gt;&#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/products/p2/hugo-post3/gallery/05.jpg&#34; class=&#34;grid-w33&#34; /&gt;&#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/products/p2/hugo-post3/gallery/06.jpg&#34; class=&#34;grid-w33&#34; /&gt;&#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/products/p2/hugo-post3/gallery/07.jpg&#34; class=&#34;grid-w33&#34; /&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xA;&#xD;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;概述&#xD;&#xA;    &lt;div id=&#34;概述&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e6%a6%82%e8%bf%b0&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;你是否厌倦了手动管理你的 markdown 文章？你想简化内容创作和管理流程吗？不用再找了，看看 Visual Studio Code 的 Front Matter 扩展。&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/p2/hugo-post3/feature.png" />
+      <guid>http://localhost:1313/products/h/hugo-post3/</guid>
+      <description>&lt;div class=&#34;width-patch&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;div id=&#34;gallery-918dfe6ac50ef6922cc59c8e15d7ada5&#34; class=&#34;gallery&#34;&gt;&#xD;&#xA;  &#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/products/h/hugo-post3/gallery/01.jpg&#34; class=&#34;grid-w33&#34; /&gt;&#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/products/h/hugo-post3/gallery/02.jpg&#34; class=&#34;grid-w33&#34; /&gt;&#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/products/h/hugo-post3/gallery/03.jpg&#34; class=&#34;grid-w33&#34; /&gt;&#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/products/h/hugo-post3/gallery/04.jpg&#34; class=&#34;grid-w33&#34; /&gt;&#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/products/h/hugo-post3/gallery/05.jpg&#34; class=&#34;grid-w33&#34; /&gt;&#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/products/h/hugo-post3/gallery/06.jpg&#34; class=&#34;grid-w33&#34; /&gt;&#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/products/h/hugo-post3/gallery/07.jpg&#34; class=&#34;grid-w33&#34; /&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xA;&#xD;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;概述&#xD;&#xA;    &lt;div id=&#34;概述&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e6%a6%82%e8%bf%b0&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;你是否厌倦了手动管理你的 markdown 文章？你想简化内容创作和管理流程吗？不用再找了，看看 Visual Studio Code 的 Front Matter 扩展。&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/h/hugo-post3/feature.png" />
     </item>
     
   </channel>

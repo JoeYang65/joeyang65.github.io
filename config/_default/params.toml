@@ -17,7 +17,7 @@ enableStructuredBreadcrumbs = true
 
 replyByEmail = false
 
-# mainSections = ["section1", "section2"]
+mainSections = ["products"] # 指定最近文章中应该展示的模块。 如果没有指定，则使用文章数量最多的板块。
 # robots = ""
 
 disableImageOptimization = false
@@ -74,7 +74,7 @@ fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384",
   showAuthor = false # 是否显示作者
   # showAuthorBottom = false
   showHero = true
-  heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
+  heroStyle = "big" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = false # only used when heroStyle equals background
   showBreadcrumbs = true
@@ -82,7 +82,7 @@ fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384",
   showEdit = false # 是否展示编辑文章的链接。
   # editURL = "https://github.com/username/repo/"
   editAppendPath = true
-  seriesOpened = false
+  seriesOpened = false # 是否默认展开“系列”模块列表
   showHeadingAnchors = true
   showPagination = true
   invertPagination = false
@@ -104,7 +104,7 @@ fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384",
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = false # only used when heroStyle equals background
   showBreadcrumbs = true
-  showSummary = false
+  showSummary = true # 是否在列表页显示文章摘要。
   showViews = false
   showLikes = false
   showTableOfContents = false # 是否展示目录。

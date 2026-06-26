@@ -19,6 +19,11 @@
           "type": "string"
         },
         {
+          "title": "summary",
+          "name": "summary",
+          "type": "string"
+        },
+        {
           "title": "Publishing date",
           "name": "date",
           "type": "datetime",
