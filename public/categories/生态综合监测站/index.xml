@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>生态综合监测站 on 沐玥智联科技有限公司 | MOJOY LINK TECH</title>
+    <link>http://localhost:1313/categories/%E7%94%9F%E6%80%81%E7%BB%BC%E5%90%88%E7%9B%91%E6%B5%8B%E7%AB%99/</link>
+    <description>Recent content in 生态综合监测站 on 沐玥智联科技有限公司 | MOJOY LINK TECH</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2026 沐玥智联科技有限公司 版权所有</copyright>
+    <lastBuildDate>Sat, 27 Jun 2026 16:04:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/%E7%94%9F%E6%80%81%E7%BB%BC%E5%90%88%E7%9B%91%E6%B5%8B%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>MET-AWS-MAX 全自动生态环境监测站</title>
+      <link>http://localhost:1313/products/met/met-aws-max/</link>
+      <pubDate>Sat, 27 Jun 2026 16:02:14 +0800</pubDate>
+      
+      <guid>http://localhost:1313/products/met/met-aws-max/</guid>
+      <description>MET-AWS-MAX 综合生态监测站要素齐全，可同步采集常规气象、长短波辐射、土壤墒情理化指标、PM2.5 及多种污染气体，支持市电 / 太阳能供电，Modbus 通讯，长期野外自动监测。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/met/met-aws-max/feature.png" />
+    </item>
+    
+  </channel>
+</rss>

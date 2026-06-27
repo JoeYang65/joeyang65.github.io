@@ -20,6 +20,7 @@ replyByEmail = false
 mainSections = ["products"] # 指定最近文章中应该展示的模块。 如果没有指定，则使用文章数量最多的板块。
 # robots = ""
 
+disableImageZoom = true # 是否禁用网站上所有图片缩放功能。
 disableImageOptimization = false
 disableImageOptimizationMD = false
 disableTextInHeader = false
@@ -84,7 +85,7 @@ fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384",
   editAppendPath = true
   seriesOpened = false # 是否默认展开“系列”模块列表
   showHeadingAnchors = true
-  showPagination = true
+  showPagination = true # 是否在文章末尾展示上一篇/下一篇的文章链接。
   invertPagination = false
   showReadingTime = false # 是否展示文章的阅读时间。如果你的语言包含 CJK 语言，需要在 hugo.toml 中开启 hasCJKLanguage 参数。
   showTableOfContents = true # 是否展示目录。
@@ -96,7 +97,7 @@ fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384",
   showWordCount = false # 显示文章字数。 如果你的语言属于 CJK 语言，需要在 hugo.toml 中开启 hasCJKLanguage 参数。
   # sharingLinks = [ "linkedin", "twitter", "bluesky", "mastodon", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram", "line"]
   showZenMode = true # 是否显示文章阅读的禅模式（Zen Mode）切换按钮，即阅读模式，会隐藏常规的界面元素。
- externalLinkForceNewTab = true # disable to allow external links in the same tab (defaults to true)
+  externalLinkForceNewTab = true # disable to allow external links in the same tab (defaults to true)
 
 [list]
   showHero = true

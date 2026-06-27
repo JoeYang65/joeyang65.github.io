@@ -1,7 +1,7 @@
 +++
 title = "水位计"
 description = "水位计的描述"
-tags = [ "水质" ]
+tags = [ "水质与生态观测" ]
 +++
 
 

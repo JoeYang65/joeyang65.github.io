@@ -47,11 +47,6 @@
           "type": "tags"
         },
         {
-          "title": "Categories",
-          "name": "categories",
-          "type": "categories"
-        },
-        {
           "title": "weight",
           "name": "weight",
           "type": "number"
@@ -65,16 +60,6 @@
           "title": "series_order",
           "name": "series_order",
           "type": "number"
-        },
-        {
-          "title": "showHero",
-          "name": "showHero",
-          "type": "boolean"
-        },
-        {
-          "title": "heroStyle",
-          "name": "heroStyle",
-          "type": "string"
         }
       ]
     }

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>多参数水质监测 on 沐玥智联科技有限公司 | MOJOY LINK TECH</title>
+    <link>http://localhost:1313/tags/%E5%A4%9A%E5%8F%82%E6%95%B0%E6%B0%B4%E8%B4%A8%E7%9B%91%E6%B5%8B/</link>
+    <description>Recent content in 多参数水质监测 on 沐玥智联科技有限公司 | MOJOY LINK TECH</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2026 沐玥智联科技有限公司 版权所有</copyright>
+    <lastBuildDate>Sat, 27 Jun 2026 18:30:12 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%A4%9A%E5%8F%82%E6%95%B0%E6%B0%B4%E8%B4%A8%E7%9B%91%E6%B5%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>水质与生态观测</title>
+      <link>http://localhost:1313/products/wq/</link>
+      <pubDate>Tue, 23 Jun 2026 21:37:44 +0800</pubDate>
+      
+      <guid>http://localhost:1313/products/wq/</guid>
+      <description>水质生态观测设备集成 pH、溶解氧、浊度、氨氮、叶绿素等传感器，可搭载浮标 / 立杆 / 海底基座，适用于河道湖泊水库近海水环境长期无人在线监测。</description>
+      
+    </item>
+    
+  </channel>
+</rss>

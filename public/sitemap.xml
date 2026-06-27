@@ -3,26 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/products/met/met-aws-pr8/</loc>
-    <lastmod>2026-06-26T22:41:35+08:00</lastmod>
+    <loc>http://localhost:1313/solutions/iot/</loc>
+    <lastmod>2026-06-27T23:52:53+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/solutions/s1-post1/</loc>
-    <lastmod>2026-06-23T21:46:14+08:00</lastmod>
+    <loc>http://localhost:1313/products/met/met-aws-pr8/</loc>
+    <lastmod>2026-06-27T17:12:52+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/products/wq/wimo/</loc>
-    <lastmod>2026-06-26T22:17:14+08:00</lastmod>
+    <lastmod>2026-06-27T17:00:32+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/products/wq/</loc>
-    <lastmod>2026-06-23T21:37:44+08:00</lastmod>
+    <lastmod>2026-06-27T18:30:12+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -34,55 +34,97 @@
   </url>
   <url>
     <loc>http://localhost:1313/products/met/</loc>
-    <lastmod>2026-06-26T22:03:53+08:00</lastmod>
+    <lastmod>2026-06-27T18:30:10+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-06-26T23:00:11+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/products/met/met-aws-th14/</loc>
-    <lastmod>2026-06-26T23:00:11+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/products/met/met-aws12/</loc>
-    <lastmod>2026-06-26T22:57:15+08:00</lastmod>
+    <loc>http://localhost:1313/tags/aiot/</loc>
+    <lastmod>2026-06-27T23:52:53+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-06-26T23:00:11+08:00</lastmod>
+    <lastmod>2026-06-27T23:52:53+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/%E6%B0%94%E8%B1%A1/</loc>
-    <lastmod>2026-06-26T23:00:11+08:00</lastmod>
+    <loc>http://localhost:1313/tags/%E7%89%A9%E8%81%94%E7%BD%91%E5%B9%B3%E5%8F%B0/</loc>
+    <lastmod>2026-06-27T23:52:53+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/%E6%B0%94%E8%B1%A1%E8%A7%82%E6%B5%8B%E8%AE%BE%E5%A4%87/</loc>
-    <lastmod>2026-06-26T23:00:11+08:00</lastmod>
+    <loc>http://localhost:1313/products/met/met-wxt536/</loc>
+    <lastmod>2026-06-27T17:38:10+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/solutions/</loc>
-    <lastmod>2026-06-23T21:46:14+08:00</lastmod>
+    <loc>http://localhost:1313/tags/%E6%B0%94%E8%B1%A1%E8%A7%82%E6%B5%8B%E8%AE%BE%E5%A4%87/</loc>
+    <lastmod>2026-06-27T18:30:10+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/%E6%B0%B4%E8%B4%A8/</loc>
-    <lastmod>2026-06-26T22:17:14+08:00</lastmod>
+    <loc>http://localhost:1313/products/met/met-aws-max/</loc>
+    <lastmod>2026-06-27T17:02:52+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/products/met/met-aws-mps5/</loc>
+    <lastmod>2026-06-27T17:10:13+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/%E8%88%B9%E8%88%B6%E6%95%B0%E5%AD%97%E6%B0%94%E8%B1%A1%E4%BB%AA/</loc>
+    <lastmod>2026-06-27T17:10:13+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/%E7%94%9F%E6%80%81%E7%BB%BC%E5%90%88%E7%9B%91%E6%B5%8B%E7%AB%99/</loc>
+    <lastmod>2026-06-27T17:02:52+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/products/met/met-aws-br7/</loc>
+    <lastmod>2026-06-27T17:01:38+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/products/met/met-aws-th14/</loc>
+    <lastmod>2026-06-27T17:12:34+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/products/met/met-aws12/</loc>
+    <lastmod>2026-06-27T17:12:12+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/%E6%B0%B4%E8%B4%A8%E4%B8%8E%E7%94%9F%E6%80%81%E8%A7%82%E6%B5%8B/</loc>
+    <lastmod>2026-06-27T18:30:12+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/%E5%A4%9A%E5%8F%82%E6%95%B0%E6%B0%B4%E8%B4%A8%E7%9B%91%E6%B5%8B/</loc>
+    <lastmod>2026-06-27T18:30:12+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-06-27T17:46:38+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -100,19 +142,19 @@
   </url>
   <url>
     <loc>http://localhost:1313/categories/%E4%BC%81%E4%B8%9A%E4%BF%A1%E6%81%AF/</loc>
-    <lastmod>2026-06-23T12:55:23+08:00</lastmod>
+    <lastmod>2026-06-27T17:46:38+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/about/</loc>
-    <lastmod>2026-06-23T12:43:09+08:00</lastmod>
+    <lastmod>2026-06-27T17:46:38+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/tags/%E4%BC%81%E4%B8%9A%E4%BB%8B%E7%BB%8D/</loc>
-    <lastmod>2026-06-23T12:43:09+08:00</lastmod>
+    <lastmod>2026-06-27T17:46:38+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -128,7 +170,13 @@
   </url>
   <url>
     <loc>http://localhost:1313/products/</loc>
-    <lastmod>2026-06-23T21:41:53+08:00</lastmod>
+    <lastmod>2026-06-27T18:31:34+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/solutions/</loc>
+    <lastmod>2026-06-27T23:59:58+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -140,7 +188,12 @@
   </url>
   <url>
     <loc>http://localhost:1313/products/h/hugo-post3/</loc>
-    <lastmod>2026-06-22T18:12:17+08:00</lastmod>
+    <lastmod>2026-06-27T17:00:32+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/%E4%BA%91%E5%B9%B3%E5%8F%B0/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

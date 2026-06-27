@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>船舶数字气象仪 on 沐玥智联科技有限公司 | MOJOY LINK TECH</title>
+    <link>http://localhost:1313/tags/%E8%88%B9%E8%88%B6%E6%95%B0%E5%AD%97%E6%B0%94%E8%B1%A1%E4%BB%AA/</link>
+    <description>Recent content in 船舶数字气象仪 on 沐玥智联科技有限公司 | MOJOY LINK TECH</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2026 沐玥智联科技有限公司 版权所有</copyright>
+    <lastBuildDate>Sat, 27 Jun 2026 17:10:13 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E8%88%B9%E8%88%B6%E6%95%B0%E5%AD%97%E6%B0%94%E8%B1%A1%E4%BB%AA/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>MET-MPS5 船舶数字气象仪</title>
+      <link>http://localhost:1313/products/met/met-aws-mps5/</link>
+      <pubDate>Sat, 27 Jun 2026 16:02:14 +0800</pubDate>
+      
+      <guid>http://localhost:1313/products/met/met-aws-mps5/</guid>
+      <description>MET-MPS5 专用船载数字气象系统，集成风速风向、温湿度、气压传感器，配套 GPS 计算真实风，兼容船舶 VDR 记录仪，具备大风预警、长期数据存储，适配各类船舶与海上平台走航监测。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/met/met-aws-mps5/feature.png" />
+    </item>
+    
+  </channel>
+</rss>

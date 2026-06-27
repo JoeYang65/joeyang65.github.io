@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AIoT on 沐玥智联科技有限公司 | MOJOY LINK TECH</title>
+    <link>http://localhost:1313/tags/aiot/</link>
+    <description>Recent content in AIoT on 沐玥智联科技有限公司 | MOJOY LINK TECH</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2026 沐玥智联科技有限公司 版权所有</copyright>
+    <lastBuildDate>Sat, 27 Jun 2026 23:52:53 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/aiot/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>沐玥智联 · 企业级AIoT通用物联网平台</title>
+      <link>http://localhost:1313/solutions/iot/</link>
+      <pubDate>Sat, 27 Jun 2026 23:10:11 +0800</pubDate>
+      
+      <guid>http://localhost:1313/solutions/iot/</guid>
+      <description>企业级 AIoT 数字底座，集设备接入、数据采集、规则引擎、可视化展示、AI 智能分析、云边协同于一体</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/solutions/iot/feature.jpg" />
+    </item>
+    
+  </channel>
+</rss>

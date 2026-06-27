@@ -4,8 +4,7 @@ description = "WiMo多参数探头"
 date = "2026-06-23T21:37:46+08:00"
 draft = false
 weight = 1
-tags = [ "水质" ]
-
+tags = [ "水质与生态观测" ]
 +++
 
 
