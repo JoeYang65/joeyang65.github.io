@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>水文仪器设备 on 沐玥智联科技有限公司 | MOJOY LINK TECH</title>
+    <link>http://localhost:1313/tags/%E6%B0%B4%E6%96%87%E4%BB%AA%E5%99%A8%E8%AE%BE%E5%A4%87/</link>
+    <description>Recent content in 水文仪器设备 on 沐玥智联科技有限公司 | MOJOY LINK TECH</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2026 沐玥智联科技有限公司 版权所有</copyright>
+    <lastBuildDate>Tue, 30 Jun 2026 22:56:07 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E6%B0%B4%E6%96%87%E4%BB%AA%E5%99%A8%E8%AE%BE%E5%A4%87/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>H-TIDE-S05 高精度压力温度传感器</title>
+      <link>http://localhost:1313/products/h/tide-s05/</link>
+      <pubDate>Tue, 30 Jun 2026 22:49:59 +0800</pubDate>
+      
+      <guid>http://localhost:1313/products/h/tide-s05/</guid>
+      <description>H-TIDE-S05 一体式潮位记录仪集成水深压力与水温检测，超低功耗锂电池续航可达 10 年，可存储 3 万条以上数据，耐腐蚀外壳适配海水淡水，适配浮标、岸站、地下水井定点观测。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/h/tide-s05/feature.png" />
+    </item>
+    
+  </channel>
+</rss>

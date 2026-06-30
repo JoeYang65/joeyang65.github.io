@@ -7,7 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2026 沐玥智联科技有限公司 版权所有</copyright>
-    <lastBuildDate>Sat, 27 Jun 2026 17:00:32 +0800</lastBuildDate><atom:link href="http://localhost:1313/products/wq/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Jun 2026 22:03:59 +0800</lastBuildDate><atom:link href="http://localhost:1313/products/wq/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>WQ-MP-S7 在线式多参数水质仪</title>
+      <link>http://localhost:1313/products/wq/mp-s7/</link>
+      <pubDate>Tue, 30 Jun 2026 21:38:39 +0800</pubDate>
+      
+      <guid>http://localhost:1313/products/wq/mp-s7/</guid>
+      <description>WQ-MP-S7 一体式多参数水质探头支持 7 项水体指标同步测量，插拔式探头易维护，带自动清洁选配，兼容浮标、岸基、船舶搭载，适合各类水域长期无人值守监测</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/wq/mp-s7/feature.png" />
+    </item>
+    
+    <item>
+      <title>WQ-NTP-SFM5 总氮总磷原位分析仪</title>
+      <link>http://localhost:1313/products/wq/ntp-sfm5/</link>
+      <pubDate>Tue, 30 Jun 2026 21:38:39 +0800</pubDate>
+      
+      <guid>http://localhost:1313/products/wq/ntp-sfm5/</guid>
+      <description>WQ-NTP-SFM5 湿化学型总氮总磷原位传感器，带前置过滤适配高浊海水，可自动存储数据、量程拓展，RS485 标准输出，适合海洋水环境氮磷污染长期原位观测。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/wq/ntp-sfm5/feature.png" />
+    </item>
+    
+    <item>
+      <title>WQ-NUT-IN5 五参数原位营养盐分析仪</title>
+      <link>http://localhost:1313/products/wq/nut-in5/</link>
+      <pubDate>Tue, 30 Jun 2026 21:38:39 +0800</pubDate>
+      
+      <guid>http://localhost:1313/products/wq/nut-in5/</guid>
+      <description>WQ-NUT-IN5 五参数营养盐传感器采用标准化学检测法，可连续测量五类水体营养盐，自带防浊过滤与废液收集装置，体积小巧，适合河湖、近海、河口长期原位连续监测。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/wq/nut-in5/feature.png" />
+    </item>
+    
+    <item>
+      <title>WQ-CHL-TA200 叶绿素浊度温度三合一水质传感器</title>
+      <link>http://localhost:1313/products/wq/chl-ta200/</link>
+      <pubDate>Fri, 26 Jun 2026 22:06:36 +0800</pubDate>
+      
+      <guid>http://localhost:1313/products/wq/chl-ta200/</guid>
+      <description>WQ-CHL-TA200 三参数水质探头采用荧光法测叶绿素，内置机械刷防生物附着，自动校正浊度、温度干扰，低功耗，支持 RS485/4-20mA，适用于水体富营养化长期监测。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/wq/chl-ta200/feature.png" />
+    </item>
     
     <item>
       <title>WiMo多参数探头</title>

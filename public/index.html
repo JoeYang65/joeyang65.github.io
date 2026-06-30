@@ -363,7 +363,7 @@
       
       class="flex items-center bf-icon-color-hover"
       aria-label="解决方案"
-      title="产品中心">
+      title="解决方案">
       
       
         <span class="text-base font-medium break-normal">
@@ -544,7 +544,7 @@
         
         class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
         
-        <span title="产品中心" class="text-2xl font-bold tracking-tight">
+        <span title="解决方案" class="text-2xl font-bold tracking-tight">
           解决方案
         </span>
         
@@ -759,30 +759,36 @@
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
        
       <div class="m-2 border border-neutral-200 dark:border-neutral-700 rounded-xl p-6 shadow hover:shadow-lg transition">
-        
-        <img src="/img/product-sensor.jpg" alt="多参数水质传感器" class="w-full h-52 object-cover rounded-lg mb-6">
-        
-        <h3 class="text-xl font-semibold mb-2">多参数水质传感器</h3>
-        <p class="text-neutral-500 dark:text-neutral-400 mb-4">海水/淡水通用，pH、溶解氧、浊度同步检测</p>
-        <a href="/products/wq" class="text-blue-600 dark:text-blue-400 hover:underline">详情介绍 →</a>
+        <a href="/products/wq">
+          
+          <img src="/img/product-sensor.jpg" alt="多参数水质传感器" class="w-full h-52 object-cover rounded-lg mb-6">
+          
+          <h3 class="text-xl font-semibold mb-2">多参数水质传感器</h3>
+          <p class="text-neutral-500 dark:text-neutral-400 mb-4">海水/淡水通用，pH、溶解氧、浊度同步检测</p>
+          <a href="/products/wq" class="text-blue-600 dark:text-blue-400 hover:underline">详情介绍 →</a>
+        </a>
+        </div>
+      
+      <div class="m-2 border border-neutral-200 dark:border-neutral-700 rounded-xl p-6 shadow hover:shadow-lg transition">
+        <a href="/products/met">
+          
+          <img src="/img/product-weather.jpg" alt="一体化气象站" class="w-full h-52 object-cover rounded-lg mb-6">
+          
+          <h3 class="text-xl font-semibold mb-2">一体化气象站</h3>
+          <p class="text-neutral-500 dark:text-neutral-400 mb-4">户外免维护，支持无线4G传输数据</p>
+          <a href="/products/met" class="text-blue-600 dark:text-blue-400 hover:underline">详情介绍 →</a>
+        </a>
       </div>
       
       <div class="m-2 border border-neutral-200 dark:border-neutral-700 rounded-xl p-6 shadow hover:shadow-lg transition">
-        
-        <img src="/img/product-weather.jpg" alt="一体化气象站" class="w-full h-52 object-cover rounded-lg mb-6">
-        
-        <h3 class="text-xl font-semibold mb-2">一体化气象站</h3>
-        <p class="text-neutral-500 dark:text-neutral-400 mb-4">户外免维护，支持无线4G传输数据</p>
-        <a href="/products/met" class="text-blue-600 dark:text-blue-400 hover:underline">详情介绍 →</a>
-      </div>
-      
-      <div class="m-2 border border-neutral-200 dark:border-neutral-700 rounded-xl p-6 shadow hover:shadow-lg transition">
-        
-        <img src="/img/product-iot.jpg" alt="设备云平台" class="w-full h-52 object-cover rounded-lg mb-6">
-        
-        <h3 class="text-xl font-semibold mb-2">设备云平台</h3>
-        <p class="text-neutral-500 dark:text-neutral-400 mb-4">远程监控、历史数据、告警推送一体化后台</p>
-        <a href="/solutions" class="text-blue-600 dark:text-blue-400 hover:underline">详情介绍 →</a>
+        <a href="/solutions/iot">
+          
+          <img src="/img/product-iot.jpg" alt="设备云平台" class="w-full h-52 object-cover rounded-lg mb-6">
+          
+          <h3 class="text-xl font-semibold mb-2">设备云平台</h3>
+          <p class="text-neutral-500 dark:text-neutral-400 mb-4">远程监控、历史数据、告警推送一体化后台</p>
+          <a href="/solutions/iot" class="text-blue-600 dark:text-blue-400 hover:underline">详情介绍 →</a>
+        </a>
       </div>
     </div>
   </div>
@@ -818,7 +824,7 @@ const carouselSlides = [
     title: "高精度水质监测系列",
     desc: "海水淡水多参数同步检测，耐腐蚀长期水下稳定工作",
     btn1Text: "水质传感器详情",
-    btn1Link: "/products/water",
+    btn1Link: "/products",
     btn2Text: "在线咨询方案",
     btn2Link: "/contact"
   },
@@ -827,7 +833,7 @@ const carouselSlides = [
     title: "一体化户外气象采集终端",
     desc: "免维护一体化设计，4G无线传输，适配水库、海洋、园区场景",
     btn1Text: "气象站产品",
-    btn1Link: "/products/weather",
+    btn1Link: "/products/met",
     btn2Text: "获取报价",
     btn2Link: "/contact"
   },
@@ -836,7 +842,7 @@ const carouselSlides = [
     title: "设备云管理监控平台",
     desc: "远程实时监控、历史数据存储、超限告警、报表导出一体化系统",
     btn1Text: "云平台介绍",
-    btn1Link: "/products/cloud",
+    btn1Link: "/solutions/iot",
     btn2Text: "预约演示",
     btn2Link: "/contact"
   },
@@ -844,8 +850,8 @@ const carouselSlides = [
     bgImage: "/img/banner5.jpg",
     title: "一站式环境监测整体解决方案",
     desc: "硬件设备+软件平台+安装运维全链条服务，支持项目定制开发",
-    btn1Text: "全部产品中心",
-    btn1Link: "/products",
+    btn1Text: "解决方案",
+    btn1Link: "/solutions",
     btn2Text: "联系商务合作",
     btn2Link: "/contact"
   }
