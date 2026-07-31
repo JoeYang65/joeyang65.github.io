@@ -39,9 +39,6 @@ MET-MPS5 是专为航运船舶、海上石油平台打造一体化数字气象�
 3. 海事监管船、科考船海上走航环境数据采集
 4. 港口船舶气象安全预警、大风风险监控
 5. 海洋调查船配套海表温度、大气要素同步观测
-
-
-
-
-
-
+<div class="flex flex-wrap gap-4 mt-8">
+{{< button href="/pdf/MET-AWS-MPS5-微型气象传感器.pdf" target="_blank" >}} {{< icon "download" >}} 下载产品彩页{{< /button >}}
+</div>

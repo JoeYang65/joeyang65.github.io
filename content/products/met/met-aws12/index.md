@@ -43,8 +43,6 @@ MET-AWS12 自动气象监测系统是沐玥智联推出的多功能一体化气�
 
 ## 适用场景
 广泛应用于近地面梯度气象观测、农田墒情监测、流域水文监测、科研野外气象实验、园区生态环境监测等场景，配套专用上位机软件，可实现数据实时查看、批量导出与自定义计算配置。
-
-
-
-
-
+<div class="flex flex-wrap gap-4 mt-8">
+{{< button href="/pdf/MET-AWS12-自动气象站.pdf" target="_blank" >}} {{< icon "download" >}} 下载产品彩页{{< /button >}}
+</div>

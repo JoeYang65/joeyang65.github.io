@@ -35,9 +35,6 @@ WQ-MP-S7 在线式多参数水质仪为模块化一体化水下监测设备，�
 5. 地下水、湿地、景观湖富营养化长期监测
 6. 环保、水利部门流域水质定点普查
 7. 高校水环境科研野外长期定点实验
-
-
-
-
-
-
+<div class="flex flex-wrap gap-4 mt-8">
+{{< button href="/pdf/WQ-MP-S7-多参数水质仪.pdf" target="_blank" >}} {{< icon "download" >}} 下载产品彩页{{< /button >}}
+</div>

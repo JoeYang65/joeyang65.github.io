@@ -44,3 +44,6 @@ H-TIDE-S05 压力温度记录仪是一体化高精度液位水温监测设备，
 4. 水上浮标、岸基水质监测站配套液位探测
 5. 水利水文站、防汛排涝水位预警监测
 6. 海洋科研、地质地下水野外长期定点实验
+<div class="flex flex-wrap gap-4 mt-8">
+{{< button href="/pdf/H-TIDE-S05-压力温度传感器.pdf" target="_blank" >}} {{< icon "download" >}} 下载产品彩页{{< /button >}}
+</div>

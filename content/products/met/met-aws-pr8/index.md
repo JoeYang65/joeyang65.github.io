@@ -31,8 +31,6 @@ MET-AWS-PR8一体化自动气象监测站由沐玥智联研发，集成多类气
 
 ## 适用场景
 气象地面观测、流域水文监测、公路交通气象预警、农田果园气候监测、矿山基建环境监测、高校野外气象实验。
-
-
-
-
-
+<div class="flex flex-wrap gap-4 mt-8">
+{{< button href="/pdf/MET-AWS-PR8-自动气象监测站.pdf" target="_blank" >}} {{< icon "download" >}} 下载产品彩页{{< /button >}}
+</div>

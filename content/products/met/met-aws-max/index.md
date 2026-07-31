@@ -37,8 +37,6 @@ MET-AWS-MAX 自动生态环境监测站严格按照国际 WMO 气象观测标准
 5. 高速、轨道交通交通气象预警监测
 6. 矿山、基建、园区大型工程环境监测
 7. 大气污染、温室气体区域溯源监测
-
-
-
-
-
+<div class="flex flex-wrap gap-4 mt-8">
+{{< button href="/pdf/MET-AWS-MAX-气象监测站.pdf" target="_blank" >}} {{< icon "download" >}} 下载产品彩页{{< /button >}}
+</div>

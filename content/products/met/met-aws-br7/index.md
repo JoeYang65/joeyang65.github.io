@@ -35,9 +35,6 @@ MET-AWS-BR7 是专为水上浮标场景打造的多要素气象监测站，集�
 3. 水上生态、水产养殖区域气象环境监测
 4. 海洋科研、湖泊野外水上气象实验
 5. 水上风电、码头港口区域气象预警监测
-
-
-
-
-
-
+<div class="flex flex-wrap gap-4 mt-8">
+{{< button href="/pdf/MET-AWS-BR7-便携式气象站.pdf" target="_blank" >}} {{< icon "download" >}} 下载产品彩页{{< /button >}}
+</div>

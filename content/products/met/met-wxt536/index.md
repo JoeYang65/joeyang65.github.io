@@ -38,14 +38,6 @@ MET-WXT536 是一体化超声多参数气象仪，采用超声波测风方案，
 3. 光伏、风电厂区微气象环境监测
 4. 城市街道、园区小型网格化气象站
 5. 野外科研、生态林区无维护长期观测
-
-
-
-
-
-
-
-
-
-
-
+<div class="flex flex-wrap gap-4 mt-8">
+{{< button href="/pdf/MET-WXT536-超声波气象站.pdf" target="_blank" >}} {{< icon "download" >}} 下载产品彩页{{< /button >}}
+</div>

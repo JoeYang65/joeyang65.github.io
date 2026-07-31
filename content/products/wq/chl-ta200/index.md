@@ -36,8 +36,6 @@ WQ-CHL-TA200 是一体化三参数水质传感器，集成叶绿素 A、浊度�
 6. 水利水文站点水体叶绿素野外定点监测
 7. 高校、科研院所水环境藻类实验观测
 8. 排污口、景观湖水质污染动态监测
-
-
-
-
-
+<div class="flex flex-wrap gap-4 mt-8">
+{{< button href="/pdf/WQ-CHL-TA200-叶绿素传感器.pdf" target="_blank" >}} {{< icon "download" >}} 下载产品彩页{{< /button >}}
+</div>

@@ -33,10 +33,6 @@ WQ-NTP-SFM5 总氮总磷原位分析仪是面向海水环境的湿化学式在�
 3. 海岸带固定岸基监测站常态化水质分析
 4. 河口咸淡水交界区域营养盐污染溯源监测
 5. 海洋环保、水利部门海水富营养化预警项目
-
-
-
-
-
-
-
+<div class="flex flex-wrap gap-4 mt-8">
+{{< button href="/pdf/WQ-NTP-SFM5-总氮总磷分析仪.pdf" target="_blank" >}} {{< icon "download" >}} 下载产品彩页{{< /button >}}
+</div>

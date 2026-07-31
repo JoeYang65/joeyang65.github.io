@@ -33,10 +33,6 @@ WQ-NUT-IN5 原位营养盐分析仪是浅水域专用多参数化学水质监测
 3. 湖泊、水库、河道富营养化常态化在线监测
 4. 海岸海洋站、潮位站生态综合监测系统配套
 5. 海洋环保、水利部门流域水质污染监测项目
-
-
-
-
-
-
-
+<div class="flex flex-wrap gap-4 mt-8">
+{{< button href="/pdf/WQ-NUT-IN5-营养盐分析仪.pdf" target="_blank" >}} {{< icon "download" >}} 下载产品彩页{{< /button >}}
+</div>

@@ -36,8 +36,6 @@ MET-AWS-TH14 是沐玥智联专为气象梯度观测研发的一体式空气温�
 3. 高校、科研院所野外气象实验观测
 4. 园区、库区、流域户外环境气象监测
 5. 小型全自动气象监测系统配套传感设备
-
-
-
-
-
+<div class="flex flex-wrap gap-4 mt-8">
+{{< button href="/pdf/MET-AWS-TH14-温湿度记录仪.pdf" target="_blank" >}} {{< icon "download" >}} 下载产品彩页{{< /button >}}
+</div>
