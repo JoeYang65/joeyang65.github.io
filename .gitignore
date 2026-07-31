@@ -1,0 +1,15 @@
+# Hugo build output
+/public/
+/resources/_gen/
+
+# AI memory (local only, not for GitHub)
+/_ai-memory/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
