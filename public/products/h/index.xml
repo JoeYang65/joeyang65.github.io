@@ -2,21 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>水文仪器设备 on 沐玥智联科技有限公司 | MOJOY LINK TECH</title>
-    <link>http://localhost:1313/products/h/</link>
+    <link>https://www.mojoylink.com/products/h/</link>
     <description>Recent content in 水文仪器设备 on 沐玥智联科技有限公司 | MOJOY LINK TECH</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2026 沐玥智联科技有限公司 版权所有</copyright>
-    <lastBuildDate>Tue, 30 Jun 2026 22:56:07 +0800</lastBuildDate><atom:link href="http://localhost:1313/products/h/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Aug 2026 18:30:44 +0800</lastBuildDate><atom:link href="https://www.mojoylink.com/products/h/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>H-TIDE-K05 潮位仪（在线式太阳能供电款）</title>
+      <link>https://www.mojoylink.com/products/h/tide-k05/</link>
+      <pubDate>Mon, 03 Aug 2026 16:00:00 +0800</pubDate>
+      
+      <guid>https://www.mojoylink.com/products/h/tide-k05/</guid>
+      <description>H-TIDE-K05 潮位仪长期记录潮汐水压与水温，外接太阳能供电系统实时稳定工作，4G通信网络实时传输数据。配套海洋环境采集主机集成GPS定位、多类报警、防雷授时、预留铱星/北斗通讯接口，316L不锈钢或钛合金IP68外壳，适配地表水、地下水及海洋环境的在线式水位水温监测站系统。</description>
+      
+    </item>
+    
+    <item>
+      <title>H-BATH-ECH101 回声测深仪（自容式蓝牙款）</title>
+      <link>https://www.mojoylink.com/products/h/bath-ech101/</link>
+      <pubDate>Mon, 03 Aug 2026 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.mojoylink.com/products/h/bath-ech101/</guid>
+      <description>H-BATH-ECH101 自容式回声测深仪集成蓝牙通讯与磁开关控制，完全无电缆独立工作，GUI软件下载上传数据，体积小重量轻，适用于河床侵蚀淤积测量、沉积物研究、桥梁冲刷、潮汐波高监测等场景。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/h/bath-ech101/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>H-WAVE-S30 波浪传感器</title>
+      <link>https://www.mojoylink.com/products/h/wave-s30/</link>
+      <pubDate>Mon, 03 Aug 2026 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.mojoylink.com/products/h/wave-s30/</guid>
+      <description>H-WAVE-S30 采用加速度式原理测量波浪，有效获取波高、波周期、波向三要素；全新耐高温材料降低重量，体积小（120×120×60mm）重量轻（0.3Kg），易集成于各类浮标；三接口输出+大容量TF卡+在线波浪谱计算，兼具高精度、高可靠性、低功耗特性，为海洋波浪观测和研究提供可靠数据。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/h/wave-s30/feature.png" />
+    </item>
+    
+    <item>
+      <title>H-BATH-ECH100 回声测深仪</title>
+      <link>https://www.mojoylink.com/products/h/bath-ech100/</link>
+      <pubDate>Fri, 31 Jul 2026 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.mojoylink.com/products/h/bath-ech100/</guid>
+      <description>H-BATH-ECH100 回声测深仪集成高精度声学测深与温度传感，支持自容式长期观测，RS485数字输出，配套GUI软件，适用于水文调查、航道测量、水库测深等场景。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/h/bath-ech100/feature.png" />
+    </item>
     
     <item>
       <title>H-TIDE-S05 高精度压力温度传感器</title>
-      <link>http://localhost:1313/products/h/tide-s05/</link>
+      <link>https://www.mojoylink.com/products/h/tide-s05/</link>
       <pubDate>Tue, 30 Jun 2026 22:49:59 +0800</pubDate>
       
-      <guid>http://localhost:1313/products/h/tide-s05/</guid>
+      <guid>https://www.mojoylink.com/products/h/tide-s05/</guid>
       <description>H-TIDE-S05 一体式潮位记录仪集成水深压力与水温检测，超低功耗锂电池续航可达 10 年，可存储 3 万条以上数据，耐腐蚀外壳适配海水淡水，适配浮标、岸站、地下水井定点观测。</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/h/tide-s05/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/h/tide-s05/feature.png" />
     </item>
     
   </channel>

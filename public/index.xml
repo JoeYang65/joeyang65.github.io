@@ -2,170 +2,330 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>首页-沐玥智联科技有限公司 Mojoy Link Tech on 沐玥智联科技有限公司 | MOJOY LINK TECH</title>
-    <link>http://localhost:1313/</link>
+    <link>https://www.mojoylink.com/</link>
     <description>Recent content in 首页-沐玥智联科技有限公司 Mojoy Link Tech on 沐玥智联科技有限公司 | MOJOY LINK TECH</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2026 沐玥智联科技有限公司 版权所有</copyright>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.mojoylink.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>沐玥智联 · 企业级AIoT通用物联网平台</title>
-      <link>http://localhost:1313/solutions/iot/</link>
+      <link>https://www.mojoylink.com/solutions/iot/</link>
       <pubDate>Sat, 27 Jun 2026 23:10:11 +0800</pubDate>
       
-      <guid>http://localhost:1313/solutions/iot/</guid>
+      <guid>https://www.mojoylink.com/solutions/iot/</guid>
       <description>企业级 AIoT 数字底座，集设备接入、数据采集、规则引擎、可视化展示、AI 智能分析、云边协同于一体</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/solutions/iot/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/solutions/iot/feature.jpg" />
     </item>
     
     <item>
       <title>MET-AWS-PR8 自动气象监测站</title>
-      <link>http://localhost:1313/products/met/met-aws-pr8/</link>
+      <link>https://www.mojoylink.com/products/met/met-aws-pr8/</link>
       <pubDate>Fri, 26 Jun 2026 22:06:36 +0800</pubDate>
       
-      <guid>http://localhost:1313/products/met/met-aws-pr8/</guid>
+      <guid>https://www.mojoylink.com/products/met/met-aws-pr8/</guid>
       <description>MET-AWS-PR8自动气象监测站集成温湿度、风速风向、降水、辐射、大气压传感器，支持太阳能供电，全天候野外无人值守气象观测。</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/met/met-aws-pr8/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/met/met-aws-pr8/feature.png" />
+    </item>
+    
+    <item>
+      <title>SAM-OIL-1 表层油类采水器</title>
+      <link>https://www.mojoylink.com/products/sam/oil-1/</link>
+      <pubDate>Tue, 04 Aug 2026 11:30:00 +0800</pubDate>
+      
+      <guid>https://www.mojoylink.com/products/sam/oil-1/</guid>
+      <description>SAM-OIL-1 表层油类采水器为 1L 容量（痕量金属分析用）表层采水设备，适用于水下 0.5&lt;del&gt;1m 水深、-2&lt;/del&gt;40℃ 温度环境，具备三大特点：材质溶出吸附小水样沾污低、闭—开—闭工作方式避开微表层沾污、结构简单可靠使用方便，进水 ≤1min 完成采样，自重 2.5kg（不含浮子）/ 10kg（含外包装），适用于各类水域表层水样的油类分析与常规水质分析采样。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/sam/oil-1/feature.png" />
+    </item>
+    
+    <item>
+      <title>SAM-MUC-610 沉积物多管取样器</title>
+      <link>https://www.mojoylink.com/products/sam/muc-610/</link>
+      <pubDate>Tue, 04 Aug 2026 11:00:00 +0800</pubDate>
+      
+      <guid>https://www.mojoylink.com/products/sam/muc-610/</guid>
+      <description>SAM-MUC-610 沉积物多管取样器由滑道式外框架（316L不锈钢，≤950kg含300kg铅配重共20块）、8~12 根聚碳酸酯透明取样管（Φ100mm，标准长610mm/最大800mm/可定制）、活塞缓冲静压采集头、防振动滑块提前释放抑制机构、专用推样工具（每转1周推样2mm无极推样，&amp;lt;5kg便携）5大核心系统组成，标准8管四面对称分布每组2根，不换外框架即可扩展12管，全海深6000m/5级海况作业，样品无压缩原状封存，适配集装箱及国内蓝牌货车陆路运输。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/sam/muc-610/feature.png" />
+    </item>
+    
+    <item>
+      <title>SAM-GC-9 重力柱状取样器</title>
+      <link>https://www.mojoylink.com/products/sam/gc-9/</link>
+      <pubDate>Tue, 04 Aug 2026 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.mojoylink.com/products/sam/gc-9/</guid>
+      <description>SAM-GC-9 重力柱状取样器采用提头+取样管+刀口三部分组成，依靠上方重锤自由下落冲力使取样管冲入沉积物取芯，贯入深度9m、样品直径105mm、总长11.5米，316不锈钢主体+双密封刀口防泥样泄露，出厂标配1吨配重（最大装载2.5吨），是长柱状、轻扰动沉积物取芯方案首选设备之一。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/sam/gc-9/feature.png" />
+    </item>
+    
+    <item>
+      <title>SAM-GPC-30 重力活塞取样器</title>
+      <link>https://www.mojoylink.com/products/sam/gpc-30/</link>
+      <pubDate>Tue, 04 Aug 2026 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.mojoylink.com/products/sam/gpc-30/</guid>
+      <description>SAM-GPC-30 重力活塞取样器系统通过平衡杆释放+重力下落+活塞负压联动方式获取高保真正交长柱状沉积物岩芯，30m取样深度、100mm样品直径、总长33m、最大工作水深6000m、总重4.5~5吨，配2205不锈钢（SS款）或Q345B合金钢（AS款）两档材质，结合德国「太阳鸿」+自研刀口的双层莲花瓣+活板密封工艺，适用于深海海洋地质、沉积物学、环境监测与资源调查研究。</description>
+      
+    </item>
+    
+    <item>
+      <title>SAM-GPC-403 重力活塞取样器</title>
+      <link>https://www.mojoylink.com/products/sam/gpc-403/</link>
+      <pubDate>Tue, 04 Aug 2026 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.mojoylink.com/products/sam/gpc-403/</guid>
+      <description>SAM-GPC-403 重力活塞取样器由管头体、提管（含尾翼+配重铅块或铸铁块）、连接法兰、取样管、活动花瓣式刀口密封、样管连接器、重锤附重锤、杠杆、活塞/单向球阀门、释放器 10 大部件构成，总长 12m（标准取样管长 9m，单根 3m 可增减），最大直径 30cm，样品直径 Φ70mm，最大重量 1000kg（可增减配重），流线型冲击力大，8m 取样长度样品压缩扰动小，支持粘土≥10%水域作业，样品可密封分段封存原样保存。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/sam/gpc-403/feature.png" />
+    </item>
+    
+    <item>
+      <title>SAM-WAT 系列采水器（不锈钢/不锈钢有机玻璃/UPVC卡盖式）</title>
+      <link>https://www.mojoylink.com/products/sam/wat/</link>
+      <pubDate>Tue, 04 Aug 2026 07:00:00 +0800</pubDate>
+      
+      <guid>https://www.mojoylink.com/products/sam/wat/</guid>
+      <description>SAM-WAT 系列采水器是定层水样采集通用型设备，顶部圆盖开合便捷，底部圆孔浮动板结构下沉时水流贯通，成功率高、坚固耐用、使用简便，覆盖 3 大材质类 17 个型号：①不锈钢 S 类 5 型号（SAM-WAT-S2.5/S3/S5/S10/S20，2.5L/3L/5L/10L/20L 优质不锈钢耐海水腐蚀，螺扣无焊接，方形直角出水嘴螺纹旋帽，304使锤可多台串联挂锤）；②不锈钢有机玻璃 P 类 5 型号（SAM-WAT-P2.5/P3/P5/P10/P20，2.5L/3L/5L/10L/20L 透明有机玻璃可直观观察水样颜色浊度悬浮物）；③UPVC 卡盖式 H 水平 + V 垂直 6 型号（H2.5/H5/H10 + V2.5/V5/V10，2.5L/5L/10L 耐酸碱腐蚀，适合微生物细菌指标分析与含腐蚀性样品海水采样）。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/sam/wat/feature.png" />
+    </item>
+    
+    <item>
+      <title>SAM-PLN-SH 浅海浮游生物网（Ⅰ型、Ⅱ型、Ⅲ型）</title>
+      <link>https://www.mojoylink.com/products/sam/pln-sh/</link>
+      <pubDate>Tue, 04 Aug 2026 06:30:00 +0800</pubDate>
+      
+      <guid>https://www.mojoylink.com/products/sam/pln-sh/</guid>
+      <description>SAM-PLN-SH 浅海浮游生物网为浅海港湾河口专用 3 档规格系列生物采样设备：Ⅰ型（Φ50cm/0.20㎡/CQ14或JP12，全长145cm，大型浮游动物+鱼卵仔稚鱼）、Ⅱ型（Φ31.6cm/0.08㎡/CB36或JP36，全长140cm+头锥部35cm+Φ50cm中网圈，中小型浮游动物）、Ⅲ型（Φ37cm/0.10㎡/JF62或JP80，全长140cm，浮游植物专用），三档均为 Φ10mm 不锈钢网口圈+细帆布+标准筛绢+Φ9×5cm细帆布网底三部分组成（Ⅱ型额外含头锥部中网圈），严格遵循海洋生态调查规范，适配科考船/小艇/岸基投放/绞车4类部署方式，可采集浮游植物、浮游动物、鱼卵仔稚鱼全粒级浅海浮游生物样本。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/sam/pln-sh/feature.png" />
+    </item>
+    
+    <item>
+      <title>SAM-PLN-DP 深海浮游生物网（小型、中型、大型）</title>
+      <link>https://www.mojoylink.com/products/sam/pln-dp/</link>
+      <pubDate>Tue, 04 Aug 2026 06:00:00 +0800</pubDate>
+      
+      <guid>https://www.mojoylink.com/products/sam/pln-dp/</guid>
+      <description>SAM-PLN-DP 深海浮游生物网为深远海高压低温环境设计的 3 档规格系列生物采样设备：小型（Φ37cm 网口/0.10㎡/JF62或JP80筛绢/全长280cm三部分）、中型（Φ50cm 网口/0.20㎡/CB36或JP36筛绢/全长280cm三部分）、大型（Φ80cm 网口/0.50㎡/CQ14或JP12筛绢/全长280cm两部分，专用于浮游植物采集），三档均采用 Φ10mm 圆不锈钢条网口圈+细帆布衔接+对应型号筛绢过滤+细帆布网底 Φ9×5cm 组成，适配深水垂向拖曳、定层采样、连续剖面采样三种作业方式，可采集深海浮游植物、浮游动物及悬浮生物颗粒。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/sam/pln-dp/feature.png" />
+    </item>
+    
+    <item>
+      <title>H-TIDE-K05 潮位仪（在线式太阳能供电款）</title>
+      <link>https://www.mojoylink.com/products/h/tide-k05/</link>
+      <pubDate>Mon, 03 Aug 2026 16:00:00 +0800</pubDate>
+      
+      <guid>https://www.mojoylink.com/products/h/tide-k05/</guid>
+      <description>H-TIDE-K05 潮位仪长期记录潮汐水压与水温，外接太阳能供电系统实时稳定工作，4G通信网络实时传输数据。配套海洋环境采集主机集成GPS定位、多类报警、防雷授时、预留铱星/北斗通讯接口，316L不锈钢或钛合金IP68外壳，适配地表水、地下水及海洋环境的在线式水位水温监测站系统。</description>
+      
+    </item>
+    
+    <item>
+      <title>DDC-Z-3 振动活塞取样器（硬底质柱状取样）</title>
+      <link>https://www.mojoylink.com/products/sam/ddc-z-3/</link>
+      <pubDate>Mon, 03 Aug 2026 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.mojoylink.com/products/sam/ddc-z-3/</guid>
+      <description>DDC-Z-3 振动活塞取样器针对纯砂、硬粘土等坚硬底质柱状取样而设计；结合活塞+单向球阀+分离式刀口技术，水密振动电机为动力，取样长度3.6m，样品直径70mm，取样率高操作简便；样品可在PVC衬管中分段密封保存，利于原状样保护和室内分析。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/sam/ddc-z-3/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>H-BATH-ECH101 回声测深仪（自容式蓝牙款）</title>
+      <link>https://www.mojoylink.com/products/h/bath-ech101/</link>
+      <pubDate>Mon, 03 Aug 2026 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.mojoylink.com/products/h/bath-ech101/</guid>
+      <description>H-BATH-ECH101 自容式回声测深仪集成蓝牙通讯与磁开关控制，完全无电缆独立工作，GUI软件下载上传数据，体积小重量轻，适用于河床侵蚀淤积测量、沉积物研究、桥梁冲刷、潮汐波高监测等场景。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/h/bath-ech101/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>H-WAVE-S30 波浪传感器</title>
+      <link>https://www.mojoylink.com/products/h/wave-s30/</link>
+      <pubDate>Mon, 03 Aug 2026 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.mojoylink.com/products/h/wave-s30/</guid>
+      <description>H-WAVE-S30 采用加速度式原理测量波浪，有效获取波高、波周期、波向三要素；全新耐高温材料降低重量，体积小（120×120×60mm）重量轻（0.3Kg），易集成于各类浮标；三接口输出+大容量TF卡+在线波浪谱计算，兼具高精度、高可靠性、低功耗特性，为海洋波浪观测和研究提供可靠数据。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/h/wave-s30/feature.png" />
+    </item>
+    
+    <item>
+      <title>SAM-BEN 底栖生物拖网（阿氏网）</title>
+      <link>https://www.mojoylink.com/products/sam/ben/</link>
+      <pubDate>Mon, 03 Aug 2026 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.mojoylink.com/products/sam/ben/</guid>
+      <description>SAM-BEN 底栖生物拖网又名阿氏网拖网，由不锈钢固定支架和定制网衣两部分构成，标准架子150×50×60cm，网衣长度与孔径按需定制，便捷高效开展近海、港湾、湖泊水域底栖生物定量定性调查采样。</description>
+      
+    </item>
+    
+    <item>
+      <title>SAM-BX 系列箱式采泥器</title>
+      <link>https://www.mojoylink.com/products/sam/bx/</link>
+      <pubDate>Mon, 03 Aug 2026 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.mojoylink.com/products/sam/bx/</guid>
+      <description>SAM-BX 系列箱式采泥器采用316L不锈钢主体+铅配重系统，通过闭合式斗体实现表层沉积物原状取样，取样成功率显著优于蚌式采泥器，铁板砂硬底质区域一次取样成功率超90%，配四档采样面积型号（500/1000/1600/2500cm²），适用于河流湖泊港口海洋等全海深场景的表层沉积物及上覆水样采样。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/sam/bx/feature.png" />
+    </item>
+    
+    <item>
+      <title>SAM-GB 系列蚌式（抓斗）采泥器</title>
+      <link>https://www.mojoylink.com/products/sam/gb/</link>
+      <pubDate>Mon, 03 Aug 2026 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.mojoylink.com/products/sam/gb/</guid>
+      <description>SAM-GB 系列蚌式（抓斗）采泥器采用316L不锈钢双瓣斗体结构，通过链条式（C系列，铅配重深海型）或杆式（L系列，自重轻便携型）两种触发机构实现表层沉积物开口取样、闭合封存，覆盖250~1000cm²三档规格，结构简单现场维护方便，是河流湖泊港口海洋等场景表层沉积物常规采样的主力设备。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/sam/gb/feature.png" />
+    </item>
+    
+    <item>
+      <title>H-BATH-ECH100 回声测深仪</title>
+      <link>https://www.mojoylink.com/products/h/bath-ech100/</link>
+      <pubDate>Fri, 31 Jul 2026 10:00:00 +0800</pubDate>
+      
+      <guid>https://www.mojoylink.com/products/h/bath-ech100/</guid>
+      <description>H-BATH-ECH100 回声测深仪集成高精度声学测深与温度传感，支持自容式长期观测，RS485数字输出，配套GUI软件，适用于水文调查、航道测量、水库测深等场景。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/h/bath-ech100/feature.png" />
     </item>
     
     <item>
       <title>H-TIDE-S05 高精度压力温度传感器</title>
-      <link>http://localhost:1313/products/h/tide-s05/</link>
+      <link>https://www.mojoylink.com/products/h/tide-s05/</link>
       <pubDate>Tue, 30 Jun 2026 22:49:59 +0800</pubDate>
       
-      <guid>http://localhost:1313/products/h/tide-s05/</guid>
+      <guid>https://www.mojoylink.com/products/h/tide-s05/</guid>
       <description>H-TIDE-S05 一体式潮位记录仪集成水深压力与水温检测，超低功耗锂电池续航可达 10 年，可存储 3 万条以上数据，耐腐蚀外壳适配海水淡水，适配浮标、岸站、地下水井定点观测。</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/h/tide-s05/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/h/tide-s05/feature.png" />
     </item>
     
     <item>
       <title>WQ-MP-S7 在线式多参数水质仪</title>
-      <link>http://localhost:1313/products/wq/mp-s7/</link>
+      <link>https://www.mojoylink.com/products/wq/mp-s7/</link>
       <pubDate>Tue, 30 Jun 2026 21:38:39 +0800</pubDate>
       
-      <guid>http://localhost:1313/products/wq/mp-s7/</guid>
+      <guid>https://www.mojoylink.com/products/wq/mp-s7/</guid>
       <description>WQ-MP-S7 一体式多参数水质探头支持 7 项水体指标同步测量，插拔式探头易维护，带自动清洁选配，兼容浮标、岸基、船舶搭载，适合各类水域长期无人值守监测</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/wq/mp-s7/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/wq/mp-s7/feature.png" />
     </item>
     
     <item>
       <title>WQ-NTP-SFM5 总氮总磷原位分析仪</title>
-      <link>http://localhost:1313/products/wq/ntp-sfm5/</link>
+      <link>https://www.mojoylink.com/products/wq/ntp-sfm5/</link>
       <pubDate>Tue, 30 Jun 2026 21:38:39 +0800</pubDate>
       
-      <guid>http://localhost:1313/products/wq/ntp-sfm5/</guid>
+      <guid>https://www.mojoylink.com/products/wq/ntp-sfm5/</guid>
       <description>WQ-NTP-SFM5 湿化学型总氮总磷原位传感器，带前置过滤适配高浊海水，可自动存储数据、量程拓展，RS485 标准输出，适合海洋水环境氮磷污染长期原位观测。</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/wq/ntp-sfm5/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/wq/ntp-sfm5/feature.png" />
     </item>
     
     <item>
       <title>WQ-NUT-IN5 五参数原位营养盐分析仪</title>
-      <link>http://localhost:1313/products/wq/nut-in5/</link>
+      <link>https://www.mojoylink.com/products/wq/nut-in5/</link>
       <pubDate>Tue, 30 Jun 2026 21:38:39 +0800</pubDate>
       
-      <guid>http://localhost:1313/products/wq/nut-in5/</guid>
+      <guid>https://www.mojoylink.com/products/wq/nut-in5/</guid>
       <description>WQ-NUT-IN5 五参数营养盐传感器采用标准化学检测法，可连续测量五类水体营养盐，自带防浊过滤与废液收集装置，体积小巧，适合河湖、近海、河口长期原位连续监测。</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/wq/nut-in5/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/wq/nut-in5/feature.png" />
     </item>
     
     <item>
       <title>MET-WXT536 超声多参数气象仪</title>
-      <link>http://localhost:1313/products/met/met-wxt536/</link>
+      <link>https://www.mojoylink.com/products/met/met-wxt536/</link>
       <pubDate>Sat, 27 Jun 2026 17:30:09 +0800</pubDate>
       
-      <guid>http://localhost:1313/products/met/met-wxt536/</guid>
+      <guid>https://www.mojoylink.com/products/met/met-wxt536/</guid>
       <description>MET-WXT536 无机械风杯超声气象传感器，同步采集温湿度气压、风、降雨、冰雹，多种通讯输出，高低温高湿稳定运行，小型一体化免维护气象探测设备。</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/met/met-wxt536/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/met/met-wxt536/feature.png" />
     </item>
     
     <item>
       <title>MET-AWS-MAX 全自动生态环境监测站</title>
-      <link>http://localhost:1313/products/met/met-aws-max/</link>
+      <link>https://www.mojoylink.com/products/met/met-aws-max/</link>
       <pubDate>Sat, 27 Jun 2026 16:02:14 +0800</pubDate>
       
-      <guid>http://localhost:1313/products/met/met-aws-max/</guid>
+      <guid>https://www.mojoylink.com/products/met/met-aws-max/</guid>
       <description>MET-AWS-MAX 综合生态监测站要素齐全，可同步采集常规气象、长短波辐射、土壤墒情理化指标、PM2.5 及多种污染气体，支持市电 / 太阳能供电，Modbus 通讯，长期野外自动监测。</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/met/met-aws-max/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/met/met-aws-max/feature.png" />
     </item>
     
     <item>
       <title>MET-MPS5 船舶数字气象仪</title>
-      <link>http://localhost:1313/products/met/met-aws-mps5/</link>
+      <link>https://www.mojoylink.com/products/met/met-aws-mps5/</link>
       <pubDate>Sat, 27 Jun 2026 16:02:14 +0800</pubDate>
       
-      <guid>http://localhost:1313/products/met/met-aws-mps5/</guid>
+      <guid>https://www.mojoylink.com/products/met/met-aws-mps5/</guid>
       <description>MET-MPS5 专用船载数字气象系统，集成风速风向、温湿度、气压传感器，配套 GPS 计算真实风，兼容船舶 VDR 记录仪，具备大风预警、长期数据存储，适配各类船舶与海上平台走航监测。</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/met/met-aws-mps5/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/met/met-aws-mps5/feature.png" />
     </item>
     
     <item>
       <title>MET-AWS-BR7 浮标雨量气象站</title>
-      <link>http://localhost:1313/products/met/met-aws-br7/</link>
+      <link>https://www.mojoylink.com/products/met/met-aws-br7/</link>
       <pubDate>Fri, 26 Jun 2026 22:06:36 +0800</pubDate>
       
-      <guid>http://localhost:1313/products/met/met-aws-br7/</guid>
+      <guid>https://www.mojoylink.com/products/met/met-aws-br7/</guid>
       <description>MET-AWS-BR7 浮标雨量气象站集成风速风向、温湿度、气压、光学雨量、光照传感器，IP65 防水，体积轻便抗 UV，专为湖泊海洋浮标水上环境气象监测设计。</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/met/met-aws-br7/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/met/met-aws-br7/feature.png" />
     </item>
     
     <item>
       <title>MET-AWS-TH14 空气温湿度传感器</title>
-      <link>http://localhost:1313/products/met/met-aws-th14/</link>
+      <link>https://www.mojoylink.com/products/met/met-aws-th14/</link>
       <pubDate>Fri, 26 Jun 2026 22:06:36 +0800</pubDate>
       
-      <guid>http://localhost:1313/products/met/met-aws-th14/</guid>
+      <guid>https://www.mojoylink.com/products/met/met-aws-th14/</guid>
       <description>MET-AWS-TH14 高精度温湿度传感器配备不锈钢滤网与防雨防辐射罩，温湿度长期稳定，RS485 信号输出，适配气象站野外长期温湿度连续观测。</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/met/met-aws-th14/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/met/met-aws-th14/feature.png" />
     </item>
     
     <item>
       <title>MET-AWS12 自动气象监测系统</title>
-      <link>http://localhost:1313/products/met/met-aws12/</link>
+      <link>https://www.mojoylink.com/products/met/met-aws12/</link>
       <pubDate>Fri, 26 Jun 2026 22:06:36 +0800</pubDate>
       
-      <guid>http://localhost:1313/products/met/met-aws12/</guid>
+      <guid>https://www.mojoylink.com/products/met/met-aws12/</guid>
       <description>MET-AWS12 多通道自动气象监测系统具备多路模拟 / 脉冲采集通道，可搭配温湿度、风、雨量、土壤多类气象传感器，支持 SD 卡本地存储、4G 无线传输，休眠低功耗，适配野外长期无人值守气象梯度观测。</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/met/met-aws12/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/met/met-aws12/feature.png" />
     </item>
     
     <item>
       <title>WQ-CHL-TA200 叶绿素浊度温度三合一水质传感器</title>
-      <link>http://localhost:1313/products/wq/chl-ta200/</link>
+      <link>https://www.mojoylink.com/products/wq/chl-ta200/</link>
       <pubDate>Fri, 26 Jun 2026 22:06:36 +0800</pubDate>
       
-      <guid>http://localhost:1313/products/wq/chl-ta200/</guid>
+      <guid>https://www.mojoylink.com/products/wq/chl-ta200/</guid>
       <description>WQ-CHL-TA200 三参数水质探头采用荧光法测叶绿素，内置机械刷防生物附着，自动校正浊度、温度干扰，低功耗，支持 RS485/4-20mA，适用于水体富营养化长期监测。</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/wq/chl-ta200/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/wq/chl-ta200/feature.png" />
     </item>
     
     <item>
       <title>WiMo多参数探头</title>
-      <link>http://localhost:1313/products/wq/wimo/</link>
+      <link>https://www.mojoylink.com/products/wq/wimo/</link>
       <pubDate>Tue, 23 Jun 2026 21:37:46 +0800</pubDate>
       
-      <guid>http://localhost:1313/products/wq/wimo/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;产品简介&#xD;&#xA;    &lt;div id=&#34;产品简介&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%ba%a7%e5%93%81%e7%ae%80%e4%bb%8b&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;WiMo 探头可同时连接多达 7 个传感器，最多可测量 20 项水质参数。WiMo 探头配备智能数字传感器套件，包括用于维护传感器的电动刷头。即使探头正在现场运行，您也可以随时随地连接和断开传感器。&#xA;&lt;figure&gt;&lt;img&#xD;&#xA;    class=&#34;my-0 rounded-md&#34;&#xD;&#xA;    loading=&#34;lazy&#34;&#xD;&#xA;    decoding=&#34;async&#34;&#xD;&#xA;    fetchpriority=&#34;auto&#34;&#xD;&#xA;    alt=&#34;brochure1&#34;&#xD;&#xA;    width=&#34;2480&#34;&#xD;&#xA;    height=&#34;3508&#34;&#xD;&#xA;    src=&#34;http://localhost:1313/products/wq/wimo/brochure1_hu_e6897fc71cc69baf.png&#34;&#xD;&#xA;    srcset=&#34;http://localhost:1313/products/wq/wimo/brochure1_hu_e6897fc71cc69baf.png 800w, http://localhost:1313/products/wq/wimo/brochure1_hu_4f087007b7fcea55.png 1280w&#34;&#xD;&#xA;    sizes=&#34;(min-width: 768px) 50vw, 65vw&#34;&#xD;&#xA;    data-zoom-src=&#34;http://localhost:1313/products/wq/wimo/brochure1.png&#34;&gt;&lt;/figure&gt;&#xD;&#xA;&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/wq/wimo/feature.jpg" />
+      <guid>https://www.mojoylink.com/products/wq/wimo/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;产品简介&#xD;&#xA;    &lt;div id=&#34;产品简介&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%ba%a7%e5%93%81%e7%ae%80%e4%bb%8b&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;WiMo 探头可同时连接多达 7 个传感器，最多可测量 20 项水质参数。WiMo 探头配备智能数字传感器套件，包括用于维护传感器的电动刷头。即使探头正在现场运行，您也可以随时随地连接和断开传感器。&#xA;&lt;figure&gt;&lt;img&#xD;&#xA;    class=&#34;my-0 rounded-md&#34;&#xD;&#xA;    loading=&#34;lazy&#34;&#xD;&#xA;    decoding=&#34;async&#34;&#xD;&#xA;    fetchpriority=&#34;auto&#34;&#xD;&#xA;    alt=&#34;brochure1&#34;&#xD;&#xA;    width=&#34;2480&#34;&#xD;&#xA;    height=&#34;3508&#34;&#xD;&#xA;    src=&#34;https://www.mojoylink.com/products/wq/wimo/brochure1_hu_e6897fc71cc69baf.png&#34;&#xD;&#xA;    srcset=&#34;https://www.mojoylink.com/products/wq/wimo/brochure1_hu_e6897fc71cc69baf.png 800w, https://www.mojoylink.com/products/wq/wimo/brochure1_hu_4f087007b7fcea55.png 1280w&#34;&#xD;&#xA;    sizes=&#34;(min-width: 768px) 50vw, 65vw&#34;&#xD;&#xA;    data-zoom-src=&#34;https://www.mojoylink.com/products/wq/wimo/brochure1.png&#34;&gt;&lt;/figure&gt;&#xD;&#xA;&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.mojoylink.com/products/wq/wimo/feature.jpg" />
     </item>
     
     <item>
       <title>联系我们 | MOJOY LINK 沐玥智联</title>
-      <link>http://localhost:1313/contact/</link>
+      <link>https://www.mojoylink.com/contact/</link>
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/contact/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;一、商务咨询渠道&#xD;&#xA;    &lt;div id=&#34;一商务咨询渠道&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%80%e5%95%86%e5%8a%a1%e5%92%a8%e8%af%a2%e6%b8%a0%e9%81%93&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&#xD;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;联系电话 / Business Hotline&#xD;&#xA;    &lt;div id=&#34;联系电话--business-hotline&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e8%81%94%e7%b3%bb%e7%94%b5%e8%af%9d--business-hotline&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;&lt;span class=&#34;relative inline-block align-text-bottom icon&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&#xD;&lt;path fill=&#34;currentColor&#34; d=&#34;M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;   &lt;strong&gt;17663972859&lt;/strong&gt;&lt;/p&gt;</description>
+      <guid>https://www.mojoylink.com/contact/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;一、商务咨询渠道&#xD;&#xA;    &lt;div id=&#34;一商务咨询渠道&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%80%e5%95%86%e5%8a%a1%e5%92%a8%e8%af%a2%e6%b8%a0%e9%81%93&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&#xD;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;联系电话 / Business Hotline&#xD;&#xA;    &lt;div id=&#34;联系电话--business-hotline&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e8%81%94%e7%b3%bb%e7%94%b5%e8%af%9d--business-hotline&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;&lt;span class=&#34;relative inline-block align-text-bottom icon&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&#xD;&lt;path fill=&#34;currentColor&#34; d=&#34;M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;   &lt;strong&gt;17663912859&lt;/strong&gt;&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>关于 | MOJOY LINK 沐玥智联</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://www.mojoylink.com/about/</link>
       <pubDate>Sun, 21 Jun 2026 17:25:43 +0800</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;!-- 图片选用：水环境气象监测 蓝色科技矢量背景 --&gt;&#xA;&#xD;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;企业概述&#xD;&#xA;    &lt;div id=&#34;企业概述&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%bc%81%e4%b8%9a%e6%a6%82%e8%bf%b0&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;沐玥智联科技扎根青岛，聚焦水环境、大气气象两大环境监测核心赛道，面向国内高校、科研院所、生态环境主管单位、生产企业、产业园区提供专业化配套服务。&#xA;业务覆盖水质监测仪器、气象采集终端、海洋浮标系统、自动取样设备、数据采集器等全系列设备供货，同时承接监测项目整体实施、野外站点搭建、设备长期运维托管等配套服务。&lt;/p&gt;&#xA;&lt;p&gt;公司依托成熟行业供应链资源与多年一线科研项目落地实操经验，深耕科研场景监测需求，针对课题申报、野外观测、长期定点监测等差异化场景提供定制化成套解决方案，兼顾方案合规性、设备稳定性与项目落地性价比。&lt;/p&gt;&#xA;&lt;!-- 图片选用：野外监测设备作业简约插画 / 概念图 --&gt;&#xA;&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;  &#xD;&#xA;  &#xD;&#xA;  &#xD;&#xA;  &#xD;&#xA;  &#xD;&#xA;  &lt;div class=&#34;width-patch&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;div id=&#34;gallery-2bc053111729a74bce2ff033e7cdfe90&#34; class=&#34;gallery&#34;&gt;&#xD;&#xA;  &#xA;  &lt;img src=&#34;http://localhost:1313/about/gallery/01.jpg&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34; /&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/about/gallery/02.jpg&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34; /&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/about/gallery/03.jpg&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34; /&gt;&#xA;  &lt;!-- &lt;img src=&#34;gallery/04.jpg&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34; /&gt;&#xA;  &lt;img src=&#34;gallery/05.jpg&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34; /&gt;&#xA;  &lt;img src=&#34;gallery/06.jpg&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34; /&gt;&#xA;  &lt;img src=&#34;gallery/07.jpg&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34; /&gt; --&gt;&#xA;&lt;/div&gt;&#xD;&#xA;&#xA;&#xD;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;行业积淀与核心优势&#xD;&#xA;    &lt;div id=&#34;行业积淀与核心优势&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e8%a1%8c%e4%b8%9a%e7%a7%af%e6%b7%80%e4%b8%8e%e6%a0%b8%e5%bf%83%e4%bc%98%e5%8a%bf&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;团队核心成员深耕环境监测科研配套领域多年，全程深度参与多类国家级、省级科研监测项目全流程落地，拥有完整的项目方案设计、设备选型统筹、现场实施调试、后期运维管理实操经验。&lt;/p&gt;</description>
+      <guid>https://www.mojoylink.com/about/</guid>
+      <description>&lt;!-- 图片选用：水环境气象监测 蓝色科技矢量背景 --&gt;&#xA;&#xD;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;企业概述&#xD;&#xA;    &lt;div id=&#34;企业概述&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%bc%81%e4%b8%9a%e6%a6%82%e8%bf%b0&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;沐玥智联科技扎根青岛，聚焦水环境、大气气象两大环境监测核心赛道，面向国内高校、科研院所、生态环境主管单位、生产企业、产业园区提供专业化配套服务。&#xA;业务覆盖水质监测仪器、气象采集终端、海洋浮标系统、自动取样设备、数据采集器等全系列设备供货，同时承接监测项目整体实施、野外站点搭建、设备长期运维托管等配套服务。&lt;/p&gt;&#xA;&lt;p&gt;公司依托成熟行业供应链资源与多年一线科研项目落地实操经验，深耕科研场景监测需求，针对课题申报、野外观测、长期定点监测等差异化场景提供定制化成套解决方案，兼顾方案合规性、设备稳定性与项目落地性价比。&lt;/p&gt;&#xA;&lt;!-- 图片选用：野外监测设备作业简约插画 / 概念图 --&gt;&#xA;&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;  &#xD;&#xA;  &#xD;&#xA;  &#xD;&#xA;  &#xD;&#xA;  &#xD;&#xA;  &lt;div class=&#34;width-patch&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;div id=&#34;gallery-2bc053111729a74bce2ff033e7cdfe90&#34; class=&#34;gallery&#34;&gt;&#xD;&#xA;  &#xA;  &lt;img src=&#34;https://www.mojoylink.com/about/gallery/01.jpg&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34; /&gt;&#xA;  &lt;img src=&#34;https://www.mojoylink.com/about/gallery/02.jpg&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34; /&gt;&#xA;  &lt;img src=&#34;https://www.mojoylink.com/about/gallery/03.jpg&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34; /&gt;&#xA;  &lt;!-- &lt;img src=&#34;gallery/04.jpg&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34; /&gt;&#xA;  &lt;img src=&#34;gallery/05.jpg&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34; /&gt;&#xA;  &lt;img src=&#34;gallery/06.jpg&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34; /&gt;&#xA;  &lt;img src=&#34;gallery/07.jpg&#34; class=&#34;grid-w50 md:grid-w33 xl:grid-w25&#34; /&gt; --&gt;&#xA;&lt;/div&gt;&#xD;&#xA;&#xA;&#xD;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;行业积淀与核心优势&#xD;&#xA;    &lt;div id=&#34;行业积淀与核心优势&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e8%a1%8c%e4%b8%9a%e7%a7%af%e6%b7%80%e4%b8%8e%e6%a0%b8%e5%bf%83%e4%bc%98%e5%8a%bf&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;团队核心成员深耕环境监测科研配套领域多年，全程深度参与多类国家级、省级科研监测项目全流程落地，拥有完整的项目方案设计、设备选型统筹、现场实施调试、后期运维管理实操经验。&lt;/p&gt;</description>
       
     </item>
     
