@@ -21,6 +21,10 @@ showPagination = false
 {{< icon "phone" >}}   **17663912859**
 
 
+### 社交平台 / Social Platforms
+{{< icon "comment" >}} **微信/Wechat：17663912859**
+
+
 ### 商务邮箱 / Mail
 {{< icon "envelope" >}}  **moirazhang122@foxmail.com**
 

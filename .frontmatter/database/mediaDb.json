@@ -1,1 +1,24 @@
-{"users":{"10056":{"documents":{"hugowebsite":{"static":{},"content":{"docs":{"hugo":{"images":{}}}}}}}},"assets":{"img":{}},"content":{"contact":{}}}
+{
+  "assets": {
+    "img": {}
+  },
+  "content": {
+    "contact": {}
+  },
+  "users": {
+    "10056": {
+      "documents": {
+        "hugowebsite": {
+          "content": {
+            "docs": {
+              "hugo": {
+                "images": {}
+              }
+            }
+          },
+          "static": {}
+        }
+      }
+    }
+  }
+}
